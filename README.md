@@ -168,6 +168,6 @@ I'm an indie full-stack developer and content creator building my version of the
 
 <br clear="both">
 
-<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczNiZjB6YnpmazE5MW1rb2N6NTF3MGc1aHZ2cXFjdG4yempoYW1ydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UCQ5LookOT2ufbsGiT/giphy-downsized-large.gif" alt="Snake animation" />
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExczNiZjB6YnpmazE5MW1rb2N6NTF3MGc1aHZ2cXFjdG4yempoYW1ydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UCQ5LookOT2ufbsGiT/giphy-downsized-large.gif" alt="Snake animation"/>
 
 ###
