@@ -23,7 +23,7 @@ So, don’t wait up—because I’m on my way.
 ---  
 </details>
 
-<div align="left" style="display: flex; gap: 6px; flex-wrap: wrap;">
+<div align="center" style="display: flex; gap: 6px; flex-wrap: wrap;">
   <a href="https://www.instagram.com/sidxntt/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="instagram logo" />
   </a>
@@ -137,10 +137,6 @@ So, don’t wait up—because I’m on my way.
   <img src="./devxp.png" width="200" alt="devxp" />
 </a>
 
-
-
-
-
 ---
 
 ### 📊 Stats
@@ -150,3 +146,9 @@ So, don’t wait up—because I’m on my way.
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
 </div>
 
+---
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sidhnxtt/sidhnxtt/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sidhnxtt/sidhnxtt/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/sidhnxtt/sidhnxtt/output/github-snake.svg" />
+</picture>
