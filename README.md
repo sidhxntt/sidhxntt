@@ -133,7 +133,11 @@ So, don’t wait up—because I’m on my way.
 ### 📺 Latest Projects 
 
 ##### DevXP - Newsletter for Techies
-[![devxp](./devxp.png)](https://app.devxp.in/)
+<a href="https://app.devxp.in/">
+  <img src="./devxp.png" width="200" alt="devxp" />
+</a>
+
+
 
 
 
