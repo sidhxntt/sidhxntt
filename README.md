@@ -2,22 +2,57 @@
 
 **`Fullstack Developer`**
 
-Hi, I'm an indie full-stack developer building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. Even though I am more backend oriented, I thrive on delivering exceptional end-user experiences.
+Hi, I'm a full-stack developer building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. Even though I am more backend oriented, I thrive on delivering exceptional end-user experiences.
 
-<div align="left">
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="medium logo"  />
-  <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="stackoverflow logo"  />
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="devto logo"  />
-</div>
+<h3>👨‍💻 Sid's Coding Journey</h3>
+<details>
+ <summary></summary>
 
 ---
- width="30px" style="padding-right:10px;
-### 🧰 Languages and Tools
 
+I began my coding journey as an eager computer science student with an insatiable passion to dive deep into the world of programming—code, UNIX, Linux, and theory. Alongside my coursework, I self-taught Machine Learning, dreaming of building my own ML model. However, that dream took a backseat as I became captivated by Fullstack Development, a passion that led to a Data Engineering role upon graduation.  
+
+In 2024, I started with frontend development but quickly found myself drawn toward the intricacies of Backend Engineering. My learning philosophy was simple: embrace challenges, avoid tutorial traps, and push through obstacles by exploring and solving problems independently. This approach not only honed my skills but also fueled my love for creating and building incrementally.  
+
+Eventually, I stepped away from the safety net of structured roles and ventured into the uncharted waters of solo development—conceiving, designing, and coding my ideas from scratch. It was exhilarating, and it worked out well. But over time, comfort crept in. Building for the sake of creation without solving meaningful problems felt easy.  
+
+Now, I’m ready to embrace discomfort again. The fire within to build something impactful—a product younger me once dreamed of—burns brighter than ever. To realize this vision, I’m taking deliberate steps to refocus my time and energy on this goal, setting the stage for a breakthrough by year’s end.  
+
+So, don’t wait up—because I’m on my way.  
+
+---  
+</details>
+
+<div align="center" style="display: flex; gap: 6px; flex-wrap: wrap;">
+  <a href="https://www.instagram.com/sidxntt/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="instagram logo" />
+  </a>
+  <a href="https://discord.com/users/goblin2206" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="discord logo" />
+  </a>
+  <a href="mailto:siddhantg2002@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="gmail logo" />
+  </a>
+  <a href="https://www.linkedin.com/in/siddhant-gupta-885384239/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="linkedin logo" />
+  </a>
+  <a href="https://medium.com/@sidhxntt" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="medium logo" />
+  </a>
+  <a href="https://stackoverflow.com/users/23409817/s-g" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="stackoverflow logo" />
+  </a>
+  <a href="https://dev.to/sidhxntt" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="devto logo" />
+  </a>
+  <a href="https://x.com/sidhxntt" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="twitter logo" />
+  </a>
+</div>
+
+
+---
+### 🧰 Languages and Tools
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
@@ -95,24 +130,25 @@ Hi, I'm an indie full-stack developer building my version of the digital world o
 
 #
 
-### 📺 Latest YouTube Videos
+### 📺 Latest Projects 
 
-<!-- BEGIN YOUTUBE-CARDS -->
-[![I'm Coding on Linux Again // My NixOS Dual PC Setup](https://ytcards.demolab.com/?id=fmFjV3_iIn0&title=I%27m+Coding+on+Linux+Again+%2F%2F+My+NixOS+Dual+PC+Setup&lang=en&timestamp=1736521253&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=1464 "I'm Coding on Linux Again // My NixOS Dual PC Setup")](https://www.youtube.com/watch?v=fmFjV3_iIn0)
+<a href="https://app.devxp.in/" target="_blank" style="color: white; text-decoration: none;">
+  <h4>
+    DevXP - Newsletter for Techies
+  </h4>
+</a>
+<video controls width="250">
+  <source src="devxp.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-
-
-<!-- END YOUTUBE-CARDS -->
-
-[<img src="https://custom-icon-badges.demolab.com/badge/-Subscribe%20For%20More-red?style=for-the-badge&logo=video&logoColor=white"/>](https://www.youtube.com/c/fknight?sub_confirmation=1)
-
-#
+---
 
 ### 📊 Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sidhxntt&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+<div align="center" style="display: flex; gap: 2rem;">
+  <img src="https://github-readme-stats.vercel.app/api?username=sidhxntt&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
 </div>
 
 #
@@ -120,7 +156,4 @@ Hi, I'm an indie full-stack developer building my version of the digital world o
 <!-- <details>
  <summary><h3>👨‍💻 Forrest's Coding Journey</h3></summary>
    I started my coding journey as a naive computer science student with a passion to learn everything I could about this programming world - code, unix, linux, theory. And all the while, teaching myself iOS development with a dream to build my own app, but that soon got overshadowed by my desire to excel in Java. A desire that landed me a full-stack software engineering job upon graduation. However, I had another desire I had been pursuing throughout this time - YouTube content creation. I eventually ended up quitting my software engineering job to pursue YouTube full-time, and that has been my focus ever since. But there's something that's always bothered me about my journey - abandoning my dream of building my own app to pursue the safe route, a job. Now I've already taken the leap away from that safety net into this uncomfortable, unexplored world that it being a creator. And it worked out, but again, it became comfortable. It's easier to create a video than go out on a ledge and build my own product. I do have to eat, at the end of the day, but I think it's time. It's time to get uncomfortable again. I have a burning desire to get back on the horse, and fulfill that dream younger me had of building my own app, my own product. And in order to do that, I'll be implmementing a few measures to streamline my YouTube content to focus more time on fulfilling that dream - a dream that I'll be ready to tackle in 2023 due to the measure I'm putting in place now until the end of 2022. Don't wait up, because I'm coming. -->
-
-
-
 
