@@ -23,7 +23,7 @@ So, don’t wait up—because I’m on my way.
 ---  
 </details>
 
-<div align="center" style="display: flex; gap: 6px; flex-wrap: wrap;">
+<div align="left" style="display: flex; gap: 6px; flex-wrap: wrap;">
   <a href="https://www.instagram.com/sidxntt/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="instagram logo" />
   </a>
