@@ -19,6 +19,7 @@ Eventually, I stepped away from the safety net of structured roles and ventured 
 Now, I’m ready to embrace discomfort again. The fire within to build something impactful—a product younger me once dreamed of—burns brighter than ever. To realize this vision, I’m taking deliberate steps to refocus my time and energy on this goal, setting the stage for a breakthrough by year’s end.  
 
 So, don’t wait up—because I’m on my way.  
+`npm install me`
 
 ---  
 </details>
