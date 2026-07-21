@@ -1,22 +1,35 @@
-# 🏄‍♂️ Siddhant Gupta
-
-<div align="left">
-  <b><pwn>🔴 🟡 🟢</pwn></b>
-</div>
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=$+You+can+also+call+me+Sid+:)&font=Fira%20Code&center=true&width=440&height=45&color=09e611&vCenter=true&pause=10&size=22" />
-</div>
+
+<img src="https://readme-typing-svg.demolab.com/?lines=Hi%2C+I'm+Siddhant+Gupta+%F0%9F%8F%84%E2%80%8D%E2%99%82%EF%B8%8F;You+can+also+call+me+Sid+:);I+convert+coffee+into+code+%E2%98%95;Beautiful+Interfaces%2C+Powerful+Backend.&font=Fira%20Code&center=true&width=520&height=50&color=09e611&vCenter=true&pause=1200&size=24" alt="typing intro" />
+
+**`Software Engineer`** · Bengaluru, India · Currently building **Invytt**
+
+<img src="https://komarev.com/ghpvc/?username=sidhxntt&color=09e611&style=flat-square&label=profile+views" alt="profile views" />
 
 <br>
 
-**`Fullstack Developer`**
+<a href="https://sidhxntt.dev">
+  <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8E%20%20Power%20on%20my%20Portfolio%20OS-000000?style=for-the-badge&logo=apple&logoColor=white" height="40" alt="portfolio" />
+</a>
 
-Hi, I'm a full-stack developer building my version of the digital world one step at a time. All coding projects are built from the ground up, from planning and designing all the way to solving real-life problems with code. Even though I am more backend oriented, I thrive on delivering exceptional end-user experiences.
+*A full macOS you can boot in your browser — apps, games, an AI Siri. Don't just read about me, log in.*
 
-<h3>👨‍💻 Sid's Coding Journey</h3>
+<a href="https://sidhxntt.dev/resume.pdf"><img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" height="30" alt="resume" /></a>
+<a href="https://cal.com/sidhxntt"><img src="https://img.shields.io/badge/Book%20a%20call-111111?style=for-the-badge&logo=caldotcom&logoColor=white" height="30" alt="book a call" /></a>
+
+</div>
+
+---
+
+## 🧭 What I'm about
+
+- 🔧 Backend engineer who treats **infrastructure as craft, not vibes** — APIs with clear ownership, infra you can trust, debugging that's actually transparent
+- 🚀 I build **SaaS tooling and developer-experience products** that help teams move faster without sacrificing reliability
+- 🌱 Ship fast → learn from feedback → iterate — on backends built to last
+- 🎯 Right now: heads-down on **Invytt**, the product younger me dreamed of
+
 <details>
- <summary></summary>
+<summary><b>👨‍💻 Sid's Coding Journey</b> — the long version</summary>
 
 ---
 
@@ -26,133 +39,99 @@ In 2024, I started with frontend development but quickly found myself drawn towa
 
 Eventually, I stepped away from the safety net of structured roles and ventured into the uncharted waters of solo development—conceiving, designing, and coding my ideas from scratch. It was exhilarating, and it worked out well. But over time, comfort crept in. Building for the sake of creation without solving meaningful problems felt easy.
 
-Now, I’m ready to embrace discomfort again. The fire within to build something impactful—a product younger me once dreamed of—burns brighter than ever. To realize this vision, I’m taking deliberate steps to refocus my time and energy on this goal, setting the stage for a breakthrough by year’s end.
+Now, I'm ready to embrace discomfort again. The fire within to build something impactful—a product younger me once dreamed of—burns brighter than ever. To realize this vision, I'm taking deliberate steps to refocus my time and energy on this goal, setting the stage for a breakthrough by year's end.
 
-So, don’t wait up—because I’m on my way.  
+So, don't wait up—because I'm on my way.
 `npm install me`
 
 ---
 
 </details>
 
-<div align="center" style="display: flex; gap: 6px; flex-wrap: wrap;">
-  <a href="https://www.instagram.com/sidxntt/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="instagram logo" />
-  </a>
-  <a href="https://discord.com/users/goblin2206" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="discord logo" />
-  </a>
-  <a href="mailto:siddhantg2002@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="gmail logo" />
-  </a>
-  <a href="https://www.linkedin.com/in/siddhant-gupta-885384239/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="linkedin logo" />
-  </a>
-  <a href="https://medium.com/@sidhxntt" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="medium logo" />
-  </a>
-  <a href="https://stackoverflow.com/users/23409817/s-g" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Stackoverflow&logo=stackoverflow&label=&color=FE7A16&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="stackoverflow logo" />
-  </a>
-  <a href="https://dev.to/sidhxntt" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="devto logo" />
-  </a>
-  <a href="https://x.com/sidhxntt" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="twitter logo" />
-  </a>
+## 🛠️ Arsenal
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=py,go,ts,js,bash" height="44" alt="languages" />
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,nextjs,fastapi,django,graphql,prisma" height="44" alt="backend" />
+
+**Data**
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,kafka,supabase" height="44" alt="data" />
+
+**Cloud & Infra**
+
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,nginx,vercel" height="44" alt="cloud and infra" />
+
+**Observability & Tools**
+
+<img src="https://skillicons.dev/icons?i=prometheus,grafana,sentry,git,linux,figma" height="44" alt="observability and tools" />
+
+</div>
+
+## 🚢 Featured builds
+
+| Project | What it does | |
+|---|---|---|
+| **[Praxis](https://praxis-alpha.vercel.app/)** | Develop your SaaS in days, not months | `SaaS starter` |
+| **[Praxis Pro](https://praxis-alpha.vercel.app/pro)** | Elevate your SaaS backend with Django | `SaaS starter` |
+| **[Mock-Me](https://sidhxntt.github.io/mock-me/)** | No-code instant FastAPI mock servers | `dev tool` |
+| **[GitBundle](https://sidhxntt.github.io/Git-Bundle/)** | Three independent tools to enhance your GitHub workflow | `dev tool` |
+| **[Dev-Tools](https://sidhxntt.github.io/Dev-Tools/)** | A collection of useful development tools | `dev tool` |
+| **[Vibe Coding Bundle](https://sidhxntt.github.io/Vibe-Coding-Bundle/)** | Prompt-engineering tools for better LLM results | `AI` |
+| **[OptiMac](https://sidhxntt.github.io/OptiMac/)** | Your Mac maintenance tool | `utility` |
+| **[DevXp](https://devxp.in)** | A technical blog to level up your developer experience | `writing` |
+
+## 📊 Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=sidhxntt&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&layout=compact&langs_count=6&theme=dracula&hide_border=true" height="160" alt="top languages" />
+
+<img src="https://streak-stats.demolab.com?user=sidhxntt&theme=dracula&hide_border=true" height="160" alt="streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sidhxntt&theme=dracula&hide_border=true&area=true" width="92%" alt="activity graph" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=sidhxntt&theme=dracula&no-frame=true&row=1&column=7&margin-w=8" width="92%" alt="trophies" />
+
+</div>
+
+## 🔗 Find me around the web
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/sidhxntt"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="linkedin" /></a>
+<a href="https://x.com/sidhxntt"><img src="https://img.shields.io/badge/Twitter%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" height="30" alt="twitter x" /></a>
+<a href="https://medium.com/@sidhxntt"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" height="30" alt="medium" /></a>
+<a href="https://substack.com/@sidhxntt"><img src="https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white" height="30" alt="substack" /></a>
+<a href="https://peerlist.io/sidhxntt"><img src="https://img.shields.io/badge/Peerlist-00AA45?style=for-the-badge&logo=peerlist&logoColor=white" height="30" alt="peerlist" /></a>
+<a href="https://www.producthunt.com/@sidhxntt"><img src="https://img.shields.io/badge/Product%20Hunt-DA552F?style=for-the-badge&logo=producthunt&logoColor=white" height="30" alt="product hunt" /></a>
+
+<a href="mailto:siddhantg2002@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" alt="gmail" /></a>
+<a href="https://stackoverflow.com/users/23409817/s-g"><img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" height="30" alt="stackoverflow" /></a>
+<a href="https://dev.to/sidhxntt"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" height="30" alt="dev.to" /></a>
+<a href="https://www.instagram.com/sidxntt/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="30" alt="instagram" /></a>
+<a href="https://discord.com/users/goblin2206"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="30" alt="discord" /></a>
+<a href="https://buymeacoffee.com/sidhxntt"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" height="30" alt="buy me a coffee" /></a>
+
 </div>
 
 ---
-
-### 🧰 Languages and Tools
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" height="30" alt="debian logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="30" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="30" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" height="30" alt="graphql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" height="30" alt="grafana logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg" height="30" alt="gulp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" height="30" alt="heroku logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" height="30" alt="jira logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="30" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="30" alt="materialui logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="30" alt="markdown logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" height="30" alt="nginx logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="30" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="30" alt="yarn logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" height="30" alt="redis logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="30" alt="sass logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="30" alt="terraform logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="30" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="30" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" height="30" alt="webpack logo"  />
-</div>
-
-
----
-
-### 📊 Stats
-
-<div align="center" style="display: flex; gap: 2rem;">
-  <img src="https://github-readme-stats.vercel.app/api?username=sidhxntt&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph" />
-</div>
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sidhxntt/sidhxntt/refs/heads/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sidhxntt/sidhxntt/refs/heads/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/sidhxntt/sidhxntt/refs/heads/output/github-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/sidhxntt/sidhxntt/refs/heads/output/github-snake.svg" />
 </picture>
+
+<div align="center">
+
+*"Good software is cultivated, not assembled — each layer of abstraction should feel as natural as the one beneath it."*
+
+</div>
