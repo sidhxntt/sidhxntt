@@ -1,0 +1,24 @@
+{
+  "_topic": "Social links",
+  "_file": "src/data/portfolio.ts",
+  "_help": "Full URLs. These become the Safari start-page tiles and the social row in Contact.",
+  "_note": "Keep the keys as-is — Safari picks each tile's brand colour by matching the words 'github' / 'linkedin' / 'twitter'. Leave one blank to drop it entirely.",
+  "_note2": "'medium' and 'notion' are the link-only apps: they get an icon in Applications and on the desktop, and open in a real browser tab.",
+
+  "github": "https://github.com/sidhxntt",
+  "linkedin": "www.linkedin.com/in/sidhxntt",
+  "twitter": "https://x.com/sidhxntt",
+  "producthunt": "https://www.producthunt.com/@sidhxntt",
+  "peerlist": "https://peerlist.io/sidhxntt",
+  "substack": "https://substack.com/@sidhxntt",
+  "buymeacoffee": "https://buymeacoffee.com/sidhxntt",
+  "cal": "https://cal.com/sidhxntt",
+  "medium": "https://medium.com/@sidhxntt",
+  "notion": "https://sidhxntt.notion.site/32f479a1085e80b09884dcbc2c2ad6d1?v=333479a1085e8069b431000c2e9c9bbe",
+
+  "_example": {
+    "github": "https://github.com/sidhxntt",
+    "linkedin": "www.linkedin.com/in/sidhxntt",
+    "twitter": "https://x.com/sidhxntt"
+  }
+}

@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel superseded runs for the same branch/PR.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Circular dependency check
+        # madge is intentionally not a project dependency; --yes skips the npx install prompt.
+        run: npx --yes madge --circular --extensions ts,tsx src
+
+      - name: Test
+        # Guarded so CI passes before the vitest config/tests land.
+        run: |
+          if [ -f vitest.config.ts ]; then
+            npx vitest run
+          else
+            echo "No vitest.config.ts found - skipping tests"
+          fi
+
+      - name: Build
+        # No Spotify env vars needed: route handlers run at request time in
+        # Next 16 (prerendering stops at network access), and spotify-server.ts
+        # only reads SPOTIFY_CLIENT_ID/SECRET inside request-time code paths.
+        run: npm run build

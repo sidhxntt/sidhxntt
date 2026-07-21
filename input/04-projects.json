@@ -1,0 +1,90 @@
+{
+  "_topic": "Projects — the four tiles",
+  "_file": "src/data/portfolio.ts",
+  "_help": "Four slots because the grid looks best with four. Put your flagship LAST — it gets the biggest tile and the longest description. Add or delete whole objects freely.",
+
+  "_field_help": {
+    "name": "Short. 'Wavelength', not 'Wavelength — A Realtime Audio Tool'.",
+    "tagline": "One line under ~50 chars. Shows on the tile.",
+    "description": "2-4 sentences: the problem it solves, what you built, what was interesting. Scale, users, tricky bugs, and perf wins all read well.",
+    "tech": "3-4 items, e.g. [\"Next.js\", \"TypeScript\", \"PostgreSQL\"]",
+    "link": "Live demo URL. Leave \"\" if there isn't one — the button just won't render.",
+    "repo": "Source URL. Leave \"\" if private.",
+    "preview": "Tailwind gradient for the tile. Pre-filled with four that look good together; swap if you like."
+  },
+
+  "items": [
+    {
+      "name": "Praxis",
+      "tagline": "Develop your SaaS in days not months",
+      "description": "Praxis CLI is a scaffolding tool that speeds up project setup with pre-configured, best-practice templates and automated workflows. It supports flexible frontend choices and a fully independent, production-ready backend with built-in features like authentication, caching, and monitoring. Designed for scalability and modularity, it enables efficient full-stack development without tight coupling between frontend and backend to elevate developer's experience and productivity.",
+      "tech": ["Node.js", "Next.js", "Vite.js", "MongoDB", "PostgreSQL", "Prisma", "Redis", "BullMQ", "JWT", "LemonSqueezy", "Prometheus", "Grafana", "Docker"],
+      "link": "https://praxis-alpha.vercel.app/",
+      "repo": "https://github.com/sidhxntt/Praxis",
+      "preview": "public/projects/praxis.png"
+    },
+    {
+      "name": "Praxis Pro" ,
+      "tagline": "Elevate your SaaS backend with Django",
+      "description": "Praxis Pro is an advanced backend-focused evolution of PRAXIS, built on Django to provide a production-grade foundation with powerful built-in features like ORM, authentication, and admin tools. It automates setup, integrates modern tooling (ELK, Kubernetes, Sentry), and delivers a scalable, best-practice backend architecture. Designed as a workflow accelerator, it helps developers build complex backend systems more efficiently.",
+      "tech": ["Python", "Django", "Django REST Framework", "PostgreSQL", "Supabase", "JWT", "Celery", "Redis", "Elasticsearch", "ELK Stack", "Prometheus", "Grafana", "Sentry", "AWS S3", "Nginx", "Gunicorn", "Docker", "Kubernetes"],
+      "link": "https://praxis-alpha.vercel.app/pro",
+      "repo": "https://github.com/sidhxntt/Praxis/tree/pro",
+      "preview": "public/projects/praxis_pro.png"
+    },
+    {
+      "name": "GitBundle",
+      "tagline": "Enhance your GitHub workflow with three independent tools",
+      "description": "GitBundle combines three independent tools to enhance your GitHub workflow: a smart CLI for automated commits (no AI, save your tokens), an AI-powered repo analysis app, and a visual 'year in review' generator. You can use each tool separately or together to streamline development, gain insights, and showcase activity.",
+      "tech": ["Vite.js", "React.js", "TypeScript", "TailwindCSS", "Node.js", "Express.js", "Supabase", "Google Gemini API", "GitHub API", "Zod", "TanStack Query"],
+      "link": "https://sidhxntt.github.io/Git-Bundle/",
+      "repo": "https://github.com/sidhxntt/Git-Bundle",
+      "preview": "public/projects/gitbundle.png"
+    },
+    {
+      "name": "Dev-Tools",
+      "tagline": "A collection of useful development tools",
+      "description": "A developer toolkit featuring an AI-powered README generator, Prisma-to-Express API scaffolder, and SEO meta. It automates documentation, scans codebases intelligently, and generates full CRUD APIs with validation and structure. Built for speed and clarity, it streamlines setup while producing production-ready outputs.",
+      "tech": ["Vite.js", "React.js", "TypeScript", "TailwindCSS", "Bash", "Node.js", "Express.js", "Prisma", "PostgreSQL", "Anthropic Claude API", "Commander"],
+      "link": "https://sidhxntt.github.io/Dev-Tools/",
+      "repo": "https://github.com/sidhxntt/Dev-Tools",
+      "preview": "public/projects/devtools.png"
+    },
+    {
+      "name": "DevXp",
+      "tagline": "A technical blog to level up your developer experience",
+      "description": "DevXp is a technical blog platform focused on improving developer experience through in-depth articles and practical guides. Built with a modern TypeScript stack, it delivers fast page loads, clean typography, and a distraction-free reading experience.",
+      "tech": ["Vite.js", "React.js", "TypeScript", "TailwindCSS", "Contentful CMS", "Three.js", "Framer Motion", "Recoil", "Material UI"],
+      "link": "https://devxp.in",
+      "repo": "https://github.com/sidhxntt/DevXp",
+      "preview": "public/projects/devxp.png"
+    },
+    {
+      "name": "Vibe Coding Bundle",
+      "tagline": "Prompt engineering tools for better LLM results",
+      "description": "A collection of AI prompt engineering tools that lint, optimize, and compress prompts for better LLM interactions. It helps developers cut token waste, catch ambiguous phrasing, and ship consistent prompts across projects.",
+      "tech": ["JavaScript", "Node.js", "Anthropic Claude API"],
+      "link": "https://sidhxntt.github.io/Vibe-Coding-Bundle/",
+      "repo": "https://github.com/sidhxntt/Vibe-Coding-Bundle",
+      "preview": "public/projects/vcb.png"
+    },
+    {
+      "name": "Mock-Me",
+      "tagline": "No-code instant FastAPI mock servers",
+      "description": "Mock-Me spins up FastAPI mock servers instantly with zero code, letting frontend teams develop against realistic APIs before the backend exists. Define endpoints and payloads declaratively and get a running server with validation out of the box.",
+      "tech": ["Python", "FastAPI", "Pydantic", "Uvicorn", "Faker", "Pytest", "PDM"],
+      "link": "https://sidhxntt.github.io/mock-me/",
+      "repo": "https://github.com/sidhxntt/mock-me",
+      "preview": "public/projects/mock-me.png"
+    },
+    {
+      "name": "OptiMac",
+      "tagline": "Your Mac maintenance tool",
+      "description": "OptiMac is a maintenance tool for macOS that automates cleanup, monitors system health, and keeps your machine running fast. It bundles common upkeep tasks — cache purging, storage analysis, and process checks — into one simple interface.",
+      "tech": ["TypeScript", "Node.js", "Commander", "Execa", "Bash"],
+      "link": "https://sidhxntt.github.io/OptiMac/",
+      "repo": "https://github.com/sidhxntt/OptiMac",
+      "preview": "public/projects/optimac.png"
+    }
+  ]
+}

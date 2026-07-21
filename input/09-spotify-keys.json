@@ -1,0 +1,10 @@
+{
+  "_topic": "Spotify API keys",
+  "_file": ".env.local — create it at the repo root; it's gitignored, so these never get committed",
+  "_help": "Free: developer.spotify.com/dashboard → Create app → copy Client ID and Client Secret. Redirect URI doesn't matter (this uses the Client Credentials flow, no user login).",
+  "_why": "Without these, the Music app's trending list, Terminal `play`, and Siri 'play X' all fail silently.",
+  "_warning": "These are secrets. Put them in .env.local, not here — this file is just the reminder. Never paste them into a committed file.",
+
+  "SPOTIFY_CLIENT_ID": "",
+  "SPOTIFY_CLIENT_SECRET": ""
+}

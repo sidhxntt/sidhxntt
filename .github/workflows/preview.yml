@@ -1,0 +1,52 @@
+# Vercel preview deploy - NOT CONFIGURED YET.
+#
+# This workflow is intentionally inert (manual trigger + no-op job) so it never
+# fails CI. To enable real preview deploys, follow the TODOs below.
+name: Preview Deploy (not configured)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  not-configured:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Explain how to enable
+        run: |
+          echo "Vercel preview deploys are not configured."
+          echo "See the commented template and TODOs in .github/workflows/preview.yml."
+
+# ---------------------------------------------------------------------------
+# TEMPLATE - uncomment and complete once the repo is linked to Vercel.
+#
+# TODO 1: Create a Vercel project for this repo (vercel link) and note the IDs
+#         from .vercel/project.json (orgId, projectId).
+# TODO 2: Create a Vercel access token: https://vercel.com/account/tokens
+# TODO 3: Add repository secrets in GitHub:
+#           - VERCEL_TOKEN
+#           - VERCEL_ORG_ID
+#           - VERCEL_PROJECT_ID
+# TODO 4: Replace the `on:` block above with `on: pull_request` (or keep
+#         workflow_dispatch too), delete the not-configured job, and uncomment
+#         the job below.
+#
+# jobs:
+#   preview:
+#     runs-on: ubuntu-latest
+#     env:
+#       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+#       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 22
+#           cache: npm
+#       - run: npm ci
+#       - name: Pull Vercel environment
+#         run: npx vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+#       - name: Build
+#         run: npx vercel build --token=${{ secrets.VERCEL_TOKEN }}
+#       - name: Deploy preview
+#         run: npx vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+# ---------------------------------------------------------------------------

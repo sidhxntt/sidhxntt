@@ -1,0 +1,10 @@
+{
+  "_topic": "Weather fallback city",
+  "_file": "src/lib/weather.ts",
+  "_help": "Optional. Used only when a visitor denies location access — otherwise the app uses theirs. No API key needed (Open-Meteo).",
+  "_note": "Set it to your city so the widget looks intentional rather than random.",
+
+  "city": "Bangalore",
+  "lat": 12.97,
+  "lon": 77.59
+}

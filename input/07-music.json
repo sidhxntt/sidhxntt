@@ -1,0 +1,17 @@
+{
+  "_topic": "Music — your 'My Songs' list",
+  "_file": "src/components/apps/Music.tsx",
+  "_help": "Optional, and already filled with real taste. Written as search queries in 'song artist' form — resolved live against Spotify, so they don't need to be exact.",
+  "_requires": "Needs the keys in 09-spotify-keys.json to resolve.",
+
+  "queries": [
+    "9 Drake",
+    "Borderline Tame Impala",
+    "5-7 Karan Aujla",
+    "Eye of the Tiger Survivor",
+    "Flashing Lights Kanye West",
+    "The Less I Know The Better Tame Impala",
+    "Sade Smooth Operator",
+    "Blinding Lights The Weeknd"
+  ]
+
