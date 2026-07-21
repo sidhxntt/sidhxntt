@@ -1,0 +1,75 @@
+{
+  "_topic": "You — name, role, bio, skills",
+  "_file": "src/data/portfolio.ts",
+  "_help": "Feeds the Notes app, the Messages bot's answers, the login screen, and the Settings account row. Everything below is filled — review it. Fields from 'headline' down are ported from your old site (github.com/sidhxntt) and aren't wired into components yet; say 'apply the input folder' when you want them rendered.",
+
+  "name": "Siddhant Gupta",
+  "role": "Software Engineer",
+  "avatarInitials_fallback": "SG",
+  "avatarpic": "public/avatar.jpg",
+  "email": "siddhantg2002@gmail.com",
+
+  "location": "Bengaluru, India",
+  "_location_help": "Currently the joke value 'Earth, Milky Way'. Put something real — 'Bengaluru, India', 'Remote', wherever you are.",
+
+  "bio": ["I convert coffee into code", "I’m a backend engineer who treats infrastructure as craft, not vibes. I build SaaS tooling that improves developer experience and productivity tools that help teams move faster without sacrificing reliability. My focus is on APIs with clear ownership, infra you can trust, and debugging that’s actually transparent. I believe in shipping fast, learning from feedback, and iterating—on backends built to last."],
+  "_bio_help": "Two short paragraphs, first person. (1) who you are and what you build. (2) what you're looking for. This is the main thing people read — worth the effort.",
+
+  "skills": ["Python", "Golang", "TypeScript", "Node.js", "Next.js", "Express.js", "FastAPI", "Django", "Prisma", "PostgreSQL", "MongoDB", "Supabase", "Redis", "Kafka", "Apache Spark", "Apache Airflow", "Databricks", "Docker", "Kubernetes", "AWS", "Prometheus", "Grafana", "Sentry", "ELK Stack", "Nginx", "REST APIs", "CI/CD", "SQL", "Bash", "Git"],
+  "_skills_help": "Renders as chips in Notes and answers the Messages bot's 'what's your stack?'. The first 5 are what the bot calls your 'daily drivers', so lead with those.",
+
+  "headline": "Beautiful Interfaces, Powerful Backend.",
+  "_headline_help": "The one-line thesis from your old site. Shows above the bio wherever there's room.",
+
+  "tagline": "Currently Building Invytt",
+  "_tagline_help": "What you're on right now — the hero line of the old site. Short enough to sit under your name.",
+
+  "quote": "Good software is cultivated, not assembled — each layer of abstraction should feel as natural as the one beneath it.",
+  "_quote_help": "Your philosophy line. Rendered as a pull-quote; no surrounding quotation marks needed.",
+
+  "stats": [
+    { "value": "2+", "label": "Years of Experience" },
+    { "value": "20+", "label": "Products Shipped" },
+    { "value": "12M+", "label": "Active Users" },
+    { "value": "1PB+", "label": "Data Processed" },
+    { "value": "5+", "label": "Data Pipelines Built" },
+    { "value": "99.9%", "label": "System Uptime" }
+  ],
+  "_stats_help": "The numbers row from the old site. Keep 'value' short — it renders big. Six reads well; four or eight also fine.",
+
+  "experience": [
+    {
+      "role": "Data Engineer",
+      "company": "Tredence Inc.",
+      "location": "Bengaluru, India",
+      "start": "October 2024",
+      "end": "Present",
+      "summary": "Architected and delivered an end-to-end HIPAA-compliant data platform on Databricks/AWS for Banner Health — spanning a PySpark-based Medallion pipeline ingesting 10M+ patient records/day from 4 EHR sources (Cerner, Health Catalyst, McKesson, Teradata) via CDC/SCD and real-time Kafka streaming; a metadata-driven YAML ingestion accelerator (T-Ingestor) with LLM-assisted SQLGlot transpilation for Spark SQL migration at scale; a config-driven clinical measure engine computing 100+ rate metrics (ICU/BIPAP LOS, Intubation Rate) across facility/provider/cohort dimensions; and a PyTest automation framework with 100+ pipeline validations wired into GitHub CI/CD across dev/QA/prod — reducing delivery time by 40%, migration risk to zero, test coverage by 60%, and QA turnaround by 35%."
+    },
+    {
+      "role": "Data Analyst Intern, Supply Chain Program",
+      "company": "Mondelez International",
+      "location": "Mumbai, India",
+      "start": "September 2023",
+      "end": "April 2024",
+      "summary": "Built 10+ Power BI dashboards with advanced DAX, boosting KPI visibility by 25% across 1,200+ distribution points. Automated 15+ warehouse simulation reports using SQL and Python, reducing manual effort by 40% and speeding reporting by 30%. Analyzed 2TB+ MongoDB data via Grafana to uncover operational bottlenecks. Led PAN-India supply chain analytics for Oreo, improving demand forecasting by 20% across 29 states."
+    }
+  ],
+  "_experience_help": "Newest first. 'end' takes 'Present' for your current role. The same copy also lives in 13-notes.json as the Work Experience note — edit both, or tell Claude to keep them in sync.",
+
+  "expertise": [
+    {
+      "area": "Backend & Systems",
+      "detail": "Distributed systems, microservices, REST & GraphQL APIs. Proficient in Python, Go and Node.js with deep database expertise."
+    },
+    {
+      "area": "Data Engineering",
+      "detail": "ETL pipelines (HIPAA compliant), data warehousing and real-time analytics. Experience with Spark, Kafka, Airflow and cloud data platforms to build scalable data infrastructure."
+    },
+    {
+      "area": "Cloud & DevOps",
+      "detail": "AWS, Kubernetes, Docker and CI/CD pipelines. Infrastructure as code, observability and zero-downtime deployments at scale."
+    }
+  ],
+  "_expertise_help": "Broader than skills — the three domains you'd claim on a call. Two sentences each."
+}

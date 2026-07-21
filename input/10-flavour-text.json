@@ -1,0 +1,23 @@
+{
+  "_topic": "Flavour text — reference only, nothing to fill",
+  "_help": "The jokes and fake system data scattered through the OS. All already written and shipping fine. This is just a map so you know where to look if you want to rewrite a gag.",
+
+  "where_the_jokes_live": {
+    "src/components/apps/Terminal.tsx": "help text, neofetch system info ('Fable Silicon', '∞ GB unified dreams'), ls listing, sudo/rm easter eggs",
+    "src/components/apps/Messages.tsx": "the entire scripted bot — opening line, 5 quick replies, ~12 canned answers",
+    "src/components/apps/MyFolder.tsx": "Finder's fake files — 20 trash items, downloads, documents, fake disk usage",
+    "src/components/apps/ActivityMonitor.tsx": "12 joke process names ('npm install (day 3)', 'Slack (says it's idle)')",
+    "src/components/apps/Contact.tsx": "contact card copy and the mailto subject",
+    "src/components/apps/About.tsx": "the 'Hello there 👋' welcome note",
+    "src/components/apps/Safari.tsx": "start page subtitle, fake Privacy Report",
+    "src/components/apps/SettingsApp.tsx": "fake machine specs and the serial number 'H1REME-<year>'",
+    "src/data/code-samples.ts": "the fake source files shown in the Code app",
+    "src/components/apps/Games.tsx": "arcade blurbs"
+  },
+
+  "_already_handled": {
+    "date_rot": "Fake file timestamps render against the real clock (src/lib/file-dates.ts), so they can't go stale.",
+    "code_app": "No longer serves this repo's real source — it shows hand-written fakes from src/data/code-samples.ts.",
+    "duplication": "App names, desktop file names, and the Code app tree each have exactly one declaration now."
+  }
+}

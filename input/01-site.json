@@ -1,0 +1,11 @@
+{
+  "_topic": "Site metadata — browser tab and link previews",
+  "_file": "src/app/layout.tsx",
+  "_help": "This is the only place your name is hardcoded outside src/data/portfolio.ts. Both values are already real — reword them if you want a different pitch.",
+
+  "title": "Siddhant Gupta — Portfolio",
+  "description": "An interactive macOS-style portfolio. Power on, log in, and explore my work.",
+
+  "_title_help": "Shows in the browser tab and as the link-preview headline. Keep it under ~60 chars.",
+  "_description_help": "The grey line under the title when someone shares your link. One sentence, ~150 chars max."
+}

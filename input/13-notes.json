@@ -1,0 +1,73 @@
+{
+  "_topic": "Notes app — one note per section of your old portfolio",
+  "_file": "src/data/notes.ts",
+  "_help": "These are the notes the Notes app opens with, ported from github.com/sidhxntt/sidhxntt/docs/index.html. Visitors can edit them in-app (changes live in their browser only), so this file is the starting state. Order here = order in the list.",
+  "_fields": "id — stable key, never reuse or visitors keep the old copy · title — shown in the list and matched by Siri ('open my work experience note') · daysAgo — how far back the note is stamped, so the list groups into Today / Previous 7 Days / Previous 30 Days · body — markdown",
+  "_markdown": "Bodies render formatted — the syntax is never shown. Use: ## section · ### subsection · **bold** · *italic* · __underline__ · `code` · - bullets · 1. numbered · > quote · --- divider · | tables | · [text](url) · ![alt](image-url). Never start a body with '# ' — the note's title already renders above it and the heading reads as a duplicate.",
+  "_composed": "About Me, Skills, Work Experience and Domain Expertise pull their facts (stats, experience, expertise, skills) from 02-profile.json — edit them there, not here.",
+
+  "notes": [
+    {
+      "id": "about-me",
+      "title": "About Me",
+      "daysAgo": 0,
+      "body": "## {headline}\n\n*{tagline}*\n\n{bio}\n\n### By the numbers\n\n{stats as a table}\n\n> {quote}\n\n---\n\nReach me at [{email}](mailto:{email}) — or __book a call__."
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "daysAgo": 1,
+      "body": "## Experienced with these tools\n\nAs a developer, I use far too many tools and technologies to bring ideas to life, but these are my favourites — the ones I have *real* experience with.\n\n### Daily drivers\n\n{first 5 skills as bold bullets}\n\n### The rest of the belt\n\n{Languages / Frameworks / Data / Infra / Observability table}"
+    },
+    {
+      "id": "work-experience",
+      "title": "Work Experience",
+      "daysAgo": 2,
+      "body": "## Career Timeline\n\n{for each job: ### company, **role**, *dates · location*, summary — separated by ---}"
+    },
+    {
+      "id": "process-workflow",
+      "title": "Process Workflow",
+      "daysAgo": 3,
+      "body": "I take a **user-centric** approach to engineering, focusing on deeply understanding problems and rapidly prototyping solutions based on feedback. I emphasise clean, scalable code and intuitive design to build products that are both effective and easy to evolve.\n\n## How a build actually goes\n\n1. **Understand** — sit with the problem before touching an editor\n2. **Prototype** — ship something rough and real, fast\n3. **Listen** — feedback beats opinion, every time\n4. **Harden** — tests, observability, and the boring parts that keep it alive\n5. **Iterate** — repeat, with what you learned\n\n> Good software is cultivated, not assembled."
+    },
+    {
+      "id": "testimonials",
+      "title": "Testimonials",
+      "daysAgo": 5,
+      "body": "## What Users Are Saying.\n\n### Shreya\n\n*Product Hunt · ★★★★★*\n\n> I just started learning development and found Praxis way too helpful to save time setting up the initial folder structure and infra. Also, I am using it as a reference in my own learning journey.\n\n### Andy Henr\n\n*Reddit · ★★★★★*\n\n> You nailed it. These locked-in tech stacks are pure tech debt. It's a reason why so many larger enterprises use these larger frameworks as backend — dot net, java etc — and enterprise level scaling. But so many in the SaaS space just focus on getting to very low MRR, so often they never run into scaling issues, as they never scale up. But I fully agree: if someone wants to scale, they must have a tech stack that actually holds up!\n\n### Peerlist\n\n**Top 100 builders** — and everyone's support on Praxis."
+    },
+    {
+      "id": "domain-expertise",
+      "title": "Domain Expertise",
+      "daysAgo": 6,
+      "body": "The three domains I'd claim on a call.\n\n{for each expertise entry: ## area, detail}"
+    },
+    {
+      "id": "methodology",
+      "title": "Methodology & Principles",
+      "daysAgo": 7,
+      "body": "## Browse my Styles.\n\nA crisp list of the software development methodologies and principles I follow — the industry standards, widely used and accepted by the community.\n\n| Principle | What it buys |\n| --- | --- |\n| **DRY** | one source of truth, one place to change it |\n| **OOP** | state and behaviour that travel together |\n| **SOLID** | five rules that keep code maintainable |\n| **Agile** | iterate, ship, get feedback |\n| **CI/CD** | an automated path to production |"
+    },
+    {
+      "id": "meetups",
+      "title": "Tech Meetups",
+      "daysAgo": 8,
+      "body": "My top three favourite meetups — I'm always excited to attend and meet new, like-minded people.\n\n| Event | Role | Where | When |\n| --- | --- | --- | --- |\n| **KubeCon + CloudNativeCon** | Attendee | New Delhi, India | 11 Dec 2024 |\n| **Open Source Connect** | Attendee | JFrog, Bengaluru | 6 Mar 2025 |\n| **Git Together** | Participant | Microsoft, Bengaluru | Monthly |\n\n## KubeCon + CloudNativeCon\n\nAn advanced, developer-focused event on Kubernetes for **GenAI, Service Mesh, GitOps and Platform Engineering** — packed with deep technical insights for seasoned professionals.\n\n## Open Source Connect\n\nTechnical advancements in the open source community, and how developers can contribute to open source.\n\n## Git Together\n\n*Showcase your best work within the event.*"
+    }
+  ],
+
+  "_removed": {
+    "products": "The Projects / Products note was removed — the Projects app already covers that ground.",
+    "material_blurb": "Section 9 of the old site carried an 'EchoPulse / anodized aluminium' material blurb — leftover template copy, not yours, so it never made it in."
+  },
+
+  "_braces_note": "{headline}, {stats as a table} etc. mark values composed from 02-profile.json in src/data/notes.ts — they are not literal text. Everything outside braces is verbatim copy you can edit freely.",
+
+  "_example": {
+    "id": "speaking",
+    "title": "Talks & Speaking",
+    "daysAgo": 9,
+    "body": "## First section\n\nA paragraph with **bold** and a [link](https://example.com).\n\n### A subsection\n\n- a bullet\n- another bullet"
+  }
+}

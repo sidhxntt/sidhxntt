@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+/* dark: utilities follow the in-app appearance setting (data-theme on the
+   desktop root, driven by theme.ts), not the OS color scheme */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Siri orb swirls only while she's thinking */
+@keyframes siri-orb-spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+.siri-orb-spin {
+  animation: siri-orb-spin 2.4s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .siri-orb-spin {
+    animation: none;
+    opacity: 0.75;
+  }
+}
+
+/* Hidden scrollbars everywhere — scrolling still works, like macOS overlay bars */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* old Edge */
+}
+*::-webkit-scrollbar {
+  display: none; /* Chrome / Safari / Brave */
+}
+
+/* ── Notes: the rendered note body ─────────────────────────────────────
+   The editor is a contenteditable holding real HTML, so the note reads as
+   formatted text and never shows markdown syntax. Sizes are relative (em) so
+   the app's small/medium/large font control still drives everything. */
+.note-body:empty::before {
+  content: attr(data-placeholder);
+  color: color-mix(in srgb, currentColor 35%, transparent);
+  pointer-events: none;
+}
+.note-body > * + * {
+  margin-top: 0.75em;
+}
+.note-body h1,
+.note-body h2,
+.note-body h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  color: color-mix(in srgb, currentColor 88%, black);
+}
+.dark .note-body h1,
+.dark .note-body h2,
+.dark .note-body h3,
+[data-theme="dark"] .note-body h1,
+[data-theme="dark"] .note-body h2,
+[data-theme="dark"] .note-body h3 {
+  color: color-mix(in srgb, currentColor 92%, white);
+}
+.note-body h1 {
+  font-size: 1.6em;
+  margin-top: 1.1em;
+}
+.note-body h2 {
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+.note-body h3 {
+  font-size: 1.08em;
+  margin-top: 0.9em;
+}
+.note-body > :first-child {
+  margin-top: 0;
+}
+.note-body ul,
+.note-body ol {
+  padding-left: 1.35em;
+}
+.note-body ul {
+  list-style: disc;
+}
+.note-body ol {
+  list-style: decimal;
+}
+.note-body li + li {
+  margin-top: 0.25em;
+}
+/* checklists render their own box instead of a bullet */
+.note-body ul[data-checklist] {
+  list-style: none;
+  padding-left: 0.15em;
+}
+.note-body li[data-check] {
+  display: flex;
+  gap: 0.55em;
+  align-items: baseline;
+}
+.note-body li[data-check]::before {
+  content: "☐";
+  cursor: pointer;
+}
+.note-body li[data-check="1"]::before {
+  content: "☑";
+}
+.note-body li[data-check="1"] {
+  opacity: 0.55;
+  text-decoration: line-through;
+}
+.note-body blockquote {
+  padding-left: 0.9em;
+  border-left: 3px solid color-mix(in srgb, currentColor 25%, transparent);
+  font-style: italic;
+  opacity: 0.85;
+}
+.note-body a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+[data-theme="dark"] .note-body a {
+  color: #60a5fa;
+}
+.note-body code {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 0.3em;
+  background: color-mix(in srgb, currentColor 12%, transparent);
+}
+.note-body hr {
+  border: 0;
+  border-top: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  margin: 1.2em 0;
+}
+.note-body table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95em;
+}
+.note-body th,
+.note-body td {
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  padding: 0.35em 0.6em;
+  text-align: left;
+}
+.note-body th {
+  font-weight: 600;
+  background: color-mix(in srgb, currentColor 7%, transparent);
+}
+.note-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 0.75em 0;
+}
