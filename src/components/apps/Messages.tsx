@@ -340,9 +340,9 @@ export function Messages() {
 
   // ── Chat pane — shared between desktop and iOS; desktop classes are unchanged ──
   const chatPane = (
-      <section className="flex min-w-0 flex-1 flex-col">
+      <section className="flex min-h-0 min-w-0 flex-1 flex-col">
         {/* Header */}
-        <header className="flex items-center justify-between border-b border-black/10 bg-white/80 px-4 py-2.5 dark:border-white/10 dark:bg-neutral-900/80">
+        <header className="flex shrink-0 items-center justify-between border-b border-black/10 bg-white/80 px-4 py-2.5 dark:border-white/10 dark:bg-neutral-900/80">
           <div className="flex items-center gap-2.5">
             {isMobile && (
               <button
@@ -380,7 +380,7 @@ export function Messages() {
         </header>
 
         {/* Message list */}
-        <div ref={scrollRef} className="flex-1 space-y-1 overflow-y-auto px-4 py-3">
+        <div ref={scrollRef} className="min-h-0 flex-1 space-y-1 overflow-y-auto px-4 py-3">
           {messages.map((m, i) => {
             const prev = messages[i - 1];
             const showStamp = !prev || m.ts - prev.ts > 15 * 60 * 1000;
@@ -424,7 +424,7 @@ export function Messages() {
         </div>
 
         {/* Quick replies */}
-        <div className="flex gap-1.5 overflow-x-auto px-3 pb-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        <div className="flex shrink-0 gap-1.5 overflow-x-auto px-3 pb-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {QUICK_REPLIES.map((q) => (
             <button
               key={q}
@@ -444,7 +444,7 @@ export function Messages() {
 
         {/* Input bar */}
         <div
-          className={`flex items-center gap-2 border-t border-black/10 dark:border-white/10 ${
+          className={`flex shrink-0 items-center gap-2 border-t border-black/10 dark:border-white/10 ${
             isMobile ? "px-3 pb-[max(0.625rem,env(safe-area-inset-bottom))] pt-2" : "px-3 py-2.5"
           }`}
         >
@@ -484,7 +484,7 @@ export function Messages() {
   if (isMobile && !chatOpen) {
     return (
       <div className="flex h-full flex-col bg-white text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
-        <div className="px-4 pb-2 pt-5">
+        <div className="shrink-0 px-4 pb-2 pt-5">
           <h1 className="text-[32px] font-bold tracking-tight">Messages</h1>
           <div className="mt-3 flex items-center gap-2 rounded-full bg-black/[0.06] px-3.5 py-2 text-[15px] text-neutral-500 dark:bg-white/[0.08] dark:text-neutral-400">
             <svg viewBox="0 0 16 16" className="h-4 w-4 shrink-0" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -494,7 +494,7 @@ export function Messages() {
             Search
           </div>
         </div>
-        <div className="flex-1 overflow-y-auto">
+        <div className="min-h-0 flex-1 overflow-y-auto">
           <button
             type="button"
             onClick={() => {

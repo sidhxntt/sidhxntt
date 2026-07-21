@@ -107,9 +107,44 @@ export function subscribeStartupChime(l: (c: boolean) => void) {
   };
 }
 
+// iOS Safari will not start an AudioContext until sound has actually flowed
+// through it during a user gesture. Creating the context and calling resume()
+// is not enough on its own — push one silent sample through the destination so
+// the output is genuinely awake.
+function primeOutput(ac: AudioContext) {
+  try {
+    const src = ac.createBufferSource();
+    src.buffer = ac.createBuffer(1, 1, ac.sampleRate);
+    src.connect(ac.destination);
+    src.start(0);
+  } catch {
+    // A failed prime is not fatal — the later resume() may still succeed.
+  }
+}
+
 /** Must be called from a user gesture (the power button click) to unlock audio. */
 export function unlockAudio() {
-  getCtx();
+  const ac = getCtx();
+  if (!ac) return;
+  primeOutput(ac);
+  void ac.resume();
+}
+
+// The power button is the intended unlock point, but it is not the only way in:
+// a restored session, a deep link, or a mobile tap that skips boot all leave the
+// context suspended and every SFX silent. Unlock again on the first real gesture,
+// whatever it happens to be, then stop listening.
+if (typeof window !== "undefined") {
+  const EVENTS = ["touchend", "pointerdown", "mousedown", "keydown"] as const;
+  const unlockOnce = () => {
+    unlockAudio();
+    // Only give up the listeners once the context is actually running; an early
+    // gesture can still be rejected, and we want the next one to try again.
+    if (ctx && ctx.state === "running") {
+      EVENTS.forEach((e) => window.removeEventListener(e, unlockOnce));
+    }
+  };
+  EVENTS.forEach((e) => window.addEventListener(e, unlockOnce, { passive: true }));
 }
 
 function tone(

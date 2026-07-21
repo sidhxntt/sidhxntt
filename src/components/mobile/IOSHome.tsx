@@ -149,9 +149,18 @@ function NowPlayingCard({ onOpen }: { onOpen: () => void }) {
             playerToggle();
           }}
           aria-label={playing ? "Pause" : "Play"}
-          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/15 text-lg text-white active:bg-white/25"
+          className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/15 text-white active:bg-white/25"
         >
-          {playing ? "⏸" : "▶"}
+          {/* SVG, not a Unicode glyph — iOS renders U+23F8/U+25B6 with emoji presentation */}
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
+            <path
+              d={
+                playing
+                  ? "M7 4h3.5v16H7V4zm6.5 0H17v16h-3.5V4z"
+                  : "M8 5.14v13.72a.5.5 0 0 0 .76.43l11.2-6.86a.5.5 0 0 0 0-.86L8.76 4.71a.5.5 0 0 0-.76.43z"
+              }
+            />
+          </svg>
         </button>
       )}
     </div>
