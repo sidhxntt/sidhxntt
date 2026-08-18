@@ -22,13 +22,17 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Substack fronts its feed with Cloudflare, which returns 403 to the
-      # default rss-parser user agent from Actions runner IPs. A browser UA
-      # gets through; retries cover the occasional transient block.
+      # Medium only. Substack fronts its feed with Cloudflare, which returns
+      # 403 to Actions runner IPs — a browser user agent and three retries did
+      # not get through, and the one feed failure fails the whole job. Public
+      # CORS proxies were tried as a workaround and were too flaky to depend on
+      # (allorigins returned 522 or timed out on three of four attempts).
+      # The feed is fine from a normal machine, so this is purely a datacenter
+      # IP block. Re-add it if Substack ever relaxes that.
       - name: Pull latest posts into README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://medium.com/feed/@sidhxntt,https://sidhxntt.substack.com/feed"
+          feed_list: "https://medium.com/feed/@sidhxntt"
           max_post_count: 5
           readme_path: ./README.md
           comment_tag_name: BLOG-POST-LIST
