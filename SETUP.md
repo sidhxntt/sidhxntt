@@ -47,13 +47,27 @@ collide.
 ## WakaTime
 
 Account created, key set, workflow running green. The section renders GitHub
-metrics (contributions, repo counts, most productive day) immediately, but
-**Code Time reads "0 secs" until a tracker logs actual hours**.
+metrics (contributions, repo counts, most productive day) immediately.
 
-Time is currently captured by the `claude-code-wakatime` plugin, which only sees
-Claude Code sessions. To capture editor time as well, install the plugin for
-your editor from https://wakatime.com/plugins — it reads the same
-`~/.wakatime.cfg` and needs no further configuration.
+**Code Time reads "0 secs" and the weekly blocks say "No Activity Tracked This
+Week" — this is expected, not a misconfiguration.** The `claude-code-wakatime`
+plugin is working: 258 heartbeats reached the server on the first day. But every
+one carries the category `AI Coding`, and WakaTime does not count that toward
+coding duration — `/stats/last_7_days` returns `0 secs` with an empty
+`categories` array even with those heartbeats stored. Only editor heartbeats
+produce Code Time.
+
+The VS Code extension (`wakatime.vscode-wakatime`) is installed and reads the
+same `~/.wakatime.cfg`, so it needs no separate key. Code Time starts
+accumulating once VS Code is reloaded and files are edited.
+
+For Xcode, install from https://github.com/wakatime/xcode-wakatime — it ships as
+a helper app rather than an editor extension, so it is a separate download.
+
+One quirk worth knowing: the action emits the Code Time and Profile Views badges
+over plain `http://img.shields.io`. GitHub proxies them through camo and they
+render correctly; fetching those URLs directly returns raw SVG markup, which is
+the badge source rather than a broken image.
 
 ## Blog feed
 
