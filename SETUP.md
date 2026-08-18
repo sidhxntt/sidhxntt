@@ -1,7 +1,8 @@
 # Profile README — setup
 
-Everything below is one-time configuration. The README renders fine without it;
-the dynamic sections just stay empty until each piece is wired up.
+Everything here is already configured and verified working — every workflow has
+run green and all 39 image URLs in the README return 200. This document is the
+record of how it is wired and what to do if a piece breaks.
 
 ## Repository secrets
 
@@ -19,7 +20,8 @@ built-in `GITHUB_TOKEN`.
 
 Settings → Actions → General → **Allow all actions and reusable workflows**, and
 under *Workflow permissions* select **Read and write permissions**. Without
-write permission the workflows cannot commit the updated README back.
+write permission the workflows cannot commit the updated README back. This is
+already enabled.
 
 ## Cron schedule
 
@@ -33,24 +35,42 @@ write permission the workflows cannot commit the updated README back.
 Each has `workflow_dispatch`, so you can trigger any of them manually from the
 Actions tab instead of waiting for the cron.
 
+**Trigger manual runs one at a time.** All three commit `README.md` on `main`,
+so two running together means one push is rejected with "fetch first". Each
+workflow has a `concurrency` group keyed on its own name, which stops a workflow
+overlapping itself but does not coordinate across the three — a single shared
+group was tried and is actively harmful, because GitHub keeps only one pending
+run per group and silently cancels the rest. The crons are six to eight hours
+apart against jobs that finish in under two minutes, so scheduled runs never
+collide.
+
 ## WakaTime
 
-No account exists yet, so `waka-readme.yml` will fail on its first scheduled run.
+Account created, key set, workflow running green. The section renders GitHub
+metrics (contributions, repo counts, most productive day) immediately, but
+**Code Time reads "0 secs" until a tracker logs actual hours**.
 
-1. Sign up at https://wakatime.com
-2. Install the plugin for your editor — https://wakatime.com/plugins
-3. Copy the API key from https://wakatime.com/settings/api-key into the
-   `WAKATIME_API_KEY` secret
-4. Let a day of coding accumulate, then run the workflow manually
-
-Until step 3, either leave the workflow disabled or expect a red X on the daily
-run.
+Time is currently captured by the `claude-code-wakatime` plugin, which only sees
+Claude Code sessions. To capture editor time as well, install the plugin for
+your editor from https://wakatime.com/plugins — it reads the same
+`~/.wakatime.cfg` and needs no further configuration.
 
 ## Blog feed
 
-The feed list is `medium.com/feed/@sidhxntt` and `sidhxntt.substack.com/feed` —
-both verified live (HTTP 200, valid XML). To add another source, append its URL
-to `feed_list` in `.github/workflows/blog-posts.yml`.
+Medium only — `medium.com/feed/@sidhxntt`, returning 11 posts, of which the
+newest 5 are rendered.
+
+**Substack is deliberately excluded.** `sidhxntt.substack.com/feed` is healthy
+from a normal machine but its Cloudflare layer returns 403 to GitHub Actions
+runner IPs. A browser user agent plus three retries did not get through, and one
+failing feed fails the whole job, which left the blog section empty. Public CORS
+proxies were evaluated as a workaround and rejected: `api.allorigins.win`
+returned 522 or timed out on three of four attempts, and `api.rss2json.com`
+emits a JSON shape the action cannot parse. The four Substack posts are simply
+not surfaced. Re-add the feed if Substack ever stops blocking datacenter IPs.
+
+To add another source, append its URL to `feed_list` in
+`.github/workflows/blog-posts.yml`.
 
 ## Spotify (spotify-github-profile)
 
@@ -84,3 +104,41 @@ https://github.com/novatorem/novatorem, deploy to Vercel, and point the `<img>`
 at your own host. That route does need `SPOTIFY_CLIENT_ID`,
 `SPOTIFY_CLIENT_SECRET`, and a `SPOTIFY_REFRESH_TOKEN` from the
 authorization-code flow.
+
+## Self-hosted stats services
+
+The README originally pointed at the shared community instances of
+github-readme-stats and github-profile-trophy. Both were down, persistently
+rather than transiently:
+
+| Endpoint | Status |
+| --- | --- |
+| `github-readme-stats.vercel.app` | 503 — the public instance is chronically over its rate limit |
+| `github-profile-trophy.vercel.app` | 402 Payment Required — the maintainer's Vercel account hit a billing cap |
+
+Both projects are now deployed under this Vercel account
+(`siddhantg2002's projects`) and the README points at them:
+
+| Service | Host | Vercel env vars |
+| --- | --- | --- |
+| github-readme-stats | `grs-sidhxntt.vercel.app` | `PAT_1` |
+| github-profile-trophy | `trophy-sidhxntt.vercel.app` | `GITHUB_TOKEN1`, `GITHUB_API` |
+
+`PAT_1` and `GITHUB_TOKEN1` hold a GitHub PAT and exist to lift the API rate
+limit — without one, both services fall back to 60 unauthenticated requests per
+hour and start returning 503 again.
+
+Two things worth knowing if you ever redeploy:
+
+- **github-profile-trophy needs a source patch.** `api/index.ts` imports
+  `@std/dotenv/load`, a bare specifier resolved through `deno.json`'s import
+  map. The `vercel-deno` runtime does not read that map, so the function crashes
+  with `ERR_MODULE_NOT_FOUND`. Deleting the import fixes it; Vercel injects env
+  vars directly, so nothing is lost.
+- **Top languages hides Jupyter Notebook, HTML and CSS.** Unfiltered, the Backup
+  repo's notebooks took 49.7% of the card and buried everything else. Filtered,
+  it reads TypeScript 62.5%, JavaScript 21.7%, Python 12.2%.
+
+Neither deployment is wired to a git repo, so they will not rebuild on their
+own. To pick up upstream changes, re-clone the project and run
+`vercel deploy --prod`.

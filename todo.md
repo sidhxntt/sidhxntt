@@ -1,43 +1,35 @@
 # Todo
 
-## GitHub profile README — remaining setup
+## GitHub profile README
 
-The README, workflows, and `SETUP.md` are written but uncommitted. Setup is
-essentially done — the only thing left is letting WakaTime collect a day of data,
-then committing.
+Done and verified. Every workflow has run green, all 39 image URLs in the README
+return 200, and all four dynamic sections are populated with real content.
 
-- [x] **Enable write permissions for Actions** — Settings → Actions → General →
-      Workflow permissions → *Read and write permissions*. Without this,
-      `blog-posts.yml`, `github-activity.yml`, and `waka-readme.yml` all run but
-      fail to commit the updated README back.
+- [x] **Actions write permissions** — enabled
+- [x] **WakaTime** — account created, `claude-code-wakatime` plugin v4.1.0
+      installed, `WAKATIME_API_KEY` and `GH_TOKEN` secrets set, workflow green
+- [x] **Spotify now-playing** — hosted spotify-github-profile service, uid
+      wired in, card renders with cover art. No secrets, no workflow
+- [x] **Blog feed** — Medium, 5 most recent posts rendering
+- [x] **GitHub activity feed** — 5 most recent events rendering
+- [x] **Self-host the stats services** — the public github-readme-stats (503)
+      and github-profile-trophy (402) instances were both dead; both now run
+      under this Vercel account and return real data
+- [x] **Commit and push** — six commits on `main`
 
-- [x] **WakaTime** — account exists, key wired up, both secrets set.
-  - [x] Sign up at https://wakatime.com
-  - [x] Install a tracker — `claude-code-wakatime@wakatime` plugin v4.1.0
-        installed (user scope), API key at `~/.wakatime.cfg` (mode 600).
-        Tracks Claude Code sessions only; add an editor plugin from
-        https://wakatime.com/plugins to also capture time spent outside Claude.
-  - [x] Add repo secret `WAKATIME_API_KEY` — set 2026-08-18
-  - [x] Add repo secret `GH_TOKEN` — set 2026-08-18
-  - [ ] Let a day of coding accumulate, then trigger the workflow manually
+### Known limitations
 
-- [x] **Spotify now-playing** — live. Authorized against the hosted
-      spotify-github-profile service, uid wired into the README, card verified
-      rendering (`default` theme, cover art, green bar, falls back to recently
-      played when offline). No secrets, no workflow.
-
-### Notes
-
-- Workflow YAML is unlinted — neither `pyyaml` nor `actionlint` is installed
-  locally. Files are tab-free and follow standard templates, but the first
-  scheduled run is the real test. Each workflow has `workflow_dispatch`, so
-  trigger them manually from the Actions tab rather than waiting on cron.
-- `snake.yml` triggers on push to `main`, as do `ci.yml` and `preview.yml`.
-  Expect those to fire when the profile changes land.
-- Full context for every item above lives in `SETUP.md`.
-
-## Uncommitted work in tree
-
-- [ ] Review and commit: `README.md`, `SETUP.md`, the three new workflows,
-      `input/04-projects.json`, `input/07-music.json`, `src/data/portfolio.ts`,
-      `public/projects/media-automations.png`
+- **WakaTime Code Time reads "0 secs"** until a tracker logs hours. The Claude
+  Code plugin only sees Claude Code sessions. Install an editor plugin from
+  https://wakatime.com/plugins to capture the rest — it reuses the same
+  `~/.wakatime.cfg`, no extra configuration.
+- **Substack posts are not surfaced.** Its Cloudflare layer 403s GitHub Actions
+  runner IPs; a browser user agent, three retries, and two public CORS proxies
+  were all tried and none worked. Four posts are missing as a result. See
+  `SETUP.md` for the full detail.
+- **Trigger manual workflow runs one at a time.** All three write `README.md` on
+  `main`, and concurrent runs lose a push race.
+- **The two Vercel deployments are not git-linked**, so they will not pick up
+  upstream fixes on their own. Re-clone and `vercel deploy --prod` to update.
+  Note that github-profile-trophy needs a one-line source patch each time — see
+  `SETUP.md`.
