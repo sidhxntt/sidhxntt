@@ -39,7 +39,10 @@ jobs:
           max_post_count: 5
           readme_path: ./README.md
           comment_tag_name: BLOG-POST-LIST
-          template: "- [$title]($url) <br/> <sub>$newline</sub>"
+          # Keep this a single list item per line. An earlier version wrapped
+          # each entry in <sub> around a $newline, which put the closing tag at
+          # the start of the following item and broke the list rendering.
+          template: "- [$title]($url)$newline"
           user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
           accept_header: "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7"
           retry_count: 3
