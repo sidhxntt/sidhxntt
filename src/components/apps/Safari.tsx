@@ -142,7 +142,7 @@ export function Safari() {
     url: p.link ?? p.repo,
     color: undefined as string | undefined,
     // start-page tiles are favicon-sized — a letter on a gradient reads better
-    // than a shrunken screenshot, so they don't use project.preview
+    // than a shrunken screenshot, so they don't use project thumbnails
     gradient: TILE_GRADIENTS[i % TILE_GRADIENTS.length],
   }));
 

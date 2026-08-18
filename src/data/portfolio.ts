@@ -129,7 +129,7 @@ export type Project = {
   tech: string[];
   link?: string;
   repo?: string;
-  preview: string; // screenshot in /public/projects
+  images: [string, ...string[]]; // ordered screenshots in /public/projects/<project-id>
 };
 
 export const projects: Project[] = [
@@ -156,7 +156,7 @@ export const projects: Project[] = [
     ],
     link: "https://praxis-alpha.vercel.app/",
     repo: "https://github.com/sidhxntt/Praxis",
-    preview: "/projects/praxis.png",
+    images: ["/projects/praxis/01.png"],
   },
   {
     id: "praxis-pro",
@@ -186,7 +186,7 @@ export const projects: Project[] = [
     ],
     link: "https://praxis-alpha.vercel.app/pro",
     repo: "https://github.com/sidhxntt/Praxis/tree/pro",
-    preview: "/projects/praxis_pro.png",
+    images: ["/projects/praxis-pro/01.png"],
   },
   {
     id: "gitbundle",
@@ -209,7 +209,7 @@ export const projects: Project[] = [
     ],
     link: "https://sidhxntt.github.io/Git-Bundle/",
     repo: "https://github.com/sidhxntt/Git-Bundle",
-    preview: "/projects/gitbundle.png",
+    images: ["/projects/gitbundle/01.png"],
   },
   {
     id: "dev-tools",
@@ -232,7 +232,7 @@ export const projects: Project[] = [
     ],
     link: "https://sidhxntt.github.io/Dev-Tools/",
     repo: "https://github.com/sidhxntt/Dev-Tools",
-    preview: "/projects/devtools.png",
+    images: ["/projects/dev-tools/01.png"],
   },
   {
     id: "devxp",
@@ -253,7 +253,7 @@ export const projects: Project[] = [
     ],
     link: "https://devxp.in",
     repo: "https://github.com/sidhxntt/DevXp",
-    preview: "/projects/devxp.png",
+    images: ["/projects/devxp/01.png"],
   },
   {
     id: "vibe-coding-bundle",
@@ -264,7 +264,7 @@ export const projects: Project[] = [
     tech: ["JavaScript", "Node.js", "Anthropic Claude API"],
     link: "https://sidhxntt.github.io/Vibe-Coding-Bundle/",
     repo: "https://github.com/sidhxntt/Vibe-Coding-Bundle",
-    preview: "/projects/vcb.png",
+    images: ["/projects/vibe-coding-bundle/01.png"],
   },
   {
     id: "mock-me",
@@ -275,7 +275,7 @@ export const projects: Project[] = [
     tech: ["Python", "FastAPI", "Pydantic", "Uvicorn", "Faker", "Pytest", "PDM"],
     link: "https://sidhxntt.github.io/mock-me/",
     repo: "https://github.com/sidhxntt/mock-me",
-    preview: "/projects/mock-me.png",
+    images: ["/projects/mock-me/01.png"],
   },
   {
     id: "optimac",
@@ -286,7 +286,7 @@ export const projects: Project[] = [
     tech: ["TypeScript", "Node.js", "Commander", "Execa", "Bash"],
     link: "https://sidhxntt.github.io/OptiMac/",
     repo: "https://github.com/sidhxntt/OptiMac",
-    preview: "/projects/optimac.png",
+    images: ["/projects/optimac/01.png"],
   },
   {
     id: "media-automations",
@@ -297,7 +297,7 @@ export const projects: Project[] = [
     tech: ["TypeScript", "Node.js", "Swift", "Vision framework", "WebKit", "Sharp", "FFmpeg", "Clack"],
     link: "https://sidhxntt.github.io/media_automations/",
     repo: "https://github.com/sidhxntt/media_automations",
-    preview: "/projects/media-automations.png",
+    images: ["/projects/media-automations/01.png"],
   },
 ];
 
