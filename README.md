@@ -211,14 +211,14 @@ Dart                     1 repo              █░░░░░░░░░░�
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sidhxntt&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=sidhxntt&layout=compact&langs_count=6&theme=dracula&hide_border=true" height="160" alt="top languages" />
+<img src="https://grs-sidhxntt.vercel.app/api?username=sidhxntt&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" height="160" alt="stats" />
+<img src="https://grs-sidhxntt.vercel.app/api/top-langs?username=sidhxntt&layout=compact&langs_count=6&theme=dracula&hide_border=true&hide=jupyter%20notebook,html,css" height="160" alt="top languages" />
 
 <img src="https://streak-stats.demolab.com?user=sidhxntt&theme=dracula&hide_border=true" height="160" alt="streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=sidhxntt&theme=dracula&hide_border=true&area=true" width="92%" alt="activity graph" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=sidhxntt&theme=dracula&no-frame=true&row=1&column=7&margin-w=8" width="92%" alt="trophies" />
+<img src="https://trophy-sidhxntt.vercel.app/?username=sidhxntt&theme=dracula&no-frame=true&row=1&column=7&margin-w=8" width="92%" alt="trophies" />
 
 </div>
 

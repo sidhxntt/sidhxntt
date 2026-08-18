@@ -8,6 +8,13 @@ on:
 permissions:
   contents: write
 
+# All three README updaters write to the same file on the same branch. Without
+# a shared concurrency group they race and the loser's push is rejected with
+# "fetch first". Queue them instead of cancelling — every update matters.
+concurrency:
+  group: readme-write
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,6 +22,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      # Substack fronts its feed with Cloudflare, which returns 403 to the
+      # default rss-parser user agent from Actions runner IPs. A browser UA
+      # gets through; retries cover the occasional transient block.
       - name: Pull latest posts into README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
@@ -23,6 +33,10 @@ jobs:
           readme_path: ./README.md
           comment_tag_name: BLOG-POST-LIST
           template: "- [$title]($url) <br/> <sub>$newline</sub>"
+          user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+          accept_header: "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7"
+          retry_count: 3
+          retry_wait_time: 5
           commit_message: "chore: update blog posts [skip ci]"
           committer_username: github-actions[bot]
           committer_email: 41898282+github-actions[bot]@users.noreply.github.com

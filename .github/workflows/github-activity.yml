@@ -8,6 +8,12 @@ on:
 permissions:
   contents: write
 
+# Shared with blog-posts.yml and waka-readme.yml — see the note there. All
+# three commit to README.md on main, so they must not run simultaneously.
+concurrency:
+  group: readme-write
+  cancel-in-progress: false
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
