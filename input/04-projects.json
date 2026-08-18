@@ -85,6 +85,15 @@
       "link": "https://sidhxntt.github.io/OptiMac/",
       "repo": "https://github.com/sidhxntt/OptiMac",
       "preview": "public/projects/optimac.png"
+    },
+    {
+      "name": "media automations",
+      "tagline": "A macOS CLI for oversized, wrong-format files",
+      "description": "media automations is an interactive macOS CLI, published on npm and launched with a single auto command, that converts images, documents and data, strips backgrounds, and compresses video — 24 image formats including HEIC and camera RAW, 21 video containers, and nothing ever leaves the machine. The expensive work is done by macOS's own frameworks rather than heavy dependencies: two small Swift helpers call Vision for subject masking and WebKit for PDF rendering, so there is no 170 MB background-removal model and no bundled Chromium, and because they ship as source and compile on first use the 56 KB package stays architecture-independent. Compression runs at three levels — on a mixed folder of a 4 MB phone photo, a UI screenshot and a 5-second 4K clip, normal saves 60%, super 86% and ultra 95%. Needs macOS 14 or newer and the Xcode Command Line Tools.",
+      "tech": ["TypeScript", "Node.js", "Swift", "Vision framework", "WebKit", "Sharp", "FFmpeg", "Clack"],
+      "link": "https://sidhxntt.github.io/media_automations/",
+      "repo": "https://github.com/sidhxntt/media_automations",
+      "preview": "public/projects/media-automations.png"
     }
   ]
 }
