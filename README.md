@@ -117,8 +117,12 @@ So, don't wait up—because I'm on my way.
 
 ### ✍️ Latest writing
 
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [DataBricks- The Lakehouse Story: From Raw Data to Reliable Intelligence](https://blog.devops.dev/databricks-the-lakehouse-story-from-raw-data-to-reliable-intelligence-b0048e3096ce?source=rss-ad4fcacb399c------2) <br/> <sub>
+</sub>- [System Design Playbook](https://blog.devops.dev/system-design-playbook-388235548447?source=rss-ad4fcacb399c------2) <br/> <sub>
+</sub>- [AI’s Dot-Com Moment — and What Comes After](https://medium.com/@sidhxntt/ais-dot-com-moment-and-what-comes-after-4c7e0b3c2f42?source=rss-ad4fcacb399c------2) <br/> <sub>
+</sub>- [Software Engineering in the Age of AI: From Labor-Driven Production to Intelligence-Driven Leverage](https://medium.com/@sidhxntt/software-engineering-in-the-age-of-ai-from-labor-driven-production-to-intelligence-driven-leverage-6d848520d829?source=rss-ad4fcacb399c------2) <br/> <sub>
+</sub>- [Apache Spark 201— Spark Optimisation Techniques](https://blog.dataengineerthings.org/apache-spark-201-spark-optimisation-techniques-e168d5e01fdc?source=rss-ad4fcacb399c------2) <br/> <sub>
+</sub><!-- BLOG-POST-LIST:END -->
 
 </td>
 </tr>
