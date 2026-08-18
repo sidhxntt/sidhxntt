@@ -8,11 +8,14 @@ on:
 permissions:
   contents: write
 
-# All three README updaters write to the same file on the same branch. Without
-# a shared concurrency group they race and the loser's push is rejected with
-# "fetch first". Queue them instead of cancelling — every update matters.
+# Guards against this workflow overlapping itself. A group shared across all
+# three README updaters was tried first and is wrong: GitHub keeps only one
+# pending run per group, so dispatching all three together silently cancelled
+# the middle one. They are kept apart by their crons instead (00:00, 06:00 and
+# 08:00 UTC, against jobs that finish in under two minutes). Dispatch them one
+# at a time when triggering manually, or the pushes can race.
 concurrency:
-  group: readme-write
+  group: ${{ github.workflow }}
   cancel-in-progress: false
 
 jobs:
