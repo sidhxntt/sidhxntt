@@ -1,10 +1,15 @@
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:09e611,50:0b7a3e,100:0d1117&height=210&section=header&text=sidhxntt&fontColor=ffffff&fontSize=72&fontAlignY=38&desc=Backend%20engineer%20%C2%B7%20infrastructure%20as%20craft%2C%20not%20vibes&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="header" />
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Hi%2C+I'm+Siddhant+Gupta+%F0%9F%8F%84%E2%80%8D%E2%99%82%EF%B8%8F;You+can+also+call+me+Sid+:);I+convert+coffee+into+code+%E2%98%95;Beautiful+Interfaces%2C+Powerful+Backend.&font=Fira%20Code&center=true&width=520&height=50&color=09e611&vCenter=true&pause=1200&size=24" alt="typing intro" />
+<img src="https://readme-typing-svg.demolab.com/?lines=Hi%2C+I'm+Siddhant+Gupta+%F0%9F%8F%84%E2%80%8D%E2%99%82%EF%B8%8F;You+can+also+call+me+Sid+:);I+convert+coffee+into+code+%E2%98%95;Beautiful+Interfaces%2C+Powerful+Backend.&font=Fira%20Code&center=true&width=560&height=52&color=09e611&vCenter=true&pause=1200&size=25" alt="typing intro" />
 
 **`Software Engineer`** · Bengaluru, India · Currently building **Invytt**
 
 <img src="https://komarev.com/ghpvc/?username=sidhxntt&color=09e611&style=flat-square&label=profile+views" alt="profile views" />
+<img src="https://img.shields.io/github/followers/sidhxntt?style=flat-square&color=09e611&labelColor=0d1117" alt="followers" />
+<img src="https://img.shields.io/badge/Peerlist-Top%20100%20Builder-00AA45?style=flat-square&labelColor=0d1117" alt="peerlist top 100" />
+<img src="https://img.shields.io/badge/Product%20Hunt-%233%20Product%20of%20the%20Day-DA552F?style=flat-square&labelColor=0d1117" alt="product hunt rank" />
 
 <br>
 
@@ -80,12 +85,54 @@ So, don't wait up—because I'm on my way.
 |---|---|---|
 | **[Praxis](https://praxis-alpha.vercel.app/)** | Develop your SaaS in days, not months | `SaaS starter` |
 | **[Praxis Pro](https://praxis-alpha.vercel.app/pro)** | Elevate your SaaS backend with Django | `SaaS starter` |
+| **[Rudder](https://github.com/sidhxntt/rudder)** | Self-hosted deploy control plane — Railway-style canvas, CLI, GitHub App, Terraform + GKE runtime | `infra` |
 | **[Mock-Me](https://sidhxntt.github.io/mock-me/)** | No-code instant FastAPI mock servers | `dev tool` |
 | **[GitBundle](https://sidhxntt.github.io/Git-Bundle/)** | Three independent tools to enhance your GitHub workflow | `dev tool` |
 | **[Dev-Tools](https://sidhxntt.github.io/Dev-Tools/)** | A collection of useful development tools | `dev tool` |
 | **[Vibe Coding Bundle](https://sidhxntt.github.io/Vibe-Coding-Bundle/)** | Prompt-engineering tools for better LLM results | `AI` |
 | **[OptiMac](https://sidhxntt.github.io/OptiMac/)** | Your Mac maintenance tool | `utility` |
+| **[media automations](https://sidhxntt.github.io/media_automations/)** | A macOS CLI for oversized, wrong-format files | `utility` |
 | **[DevXp](https://devxp.in)** | A technical blog to level up your developer experience | `writing` |
+
+## ⚡ Live from the workshop
+
+<!-- These four blocks are filled by GitHub Actions. See .github/workflows/ -->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 Recent activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</td>
+<td width="50%" valign="top">
+
+### ✍️ Latest writing
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+</td>
+</tr>
+</table>
+
+### ⏱️ Where the hours go
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+### 🎧 What's on right now
+
+<div align="center">
+
+<a href="https://spotify-github-profile.kittinanx.com/api/view?uid=312tlxjs43rzt4nefovwopuraozy&redirect=true">
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=312tlxjs43rzt4nefovwopuraozy&cover_image=true&theme=default&show_offline=false&background_color=0d1117&bar_color=09e611&bar_color_cover=false" alt="spotify now playing" />
+</a>
+
+</div>
 
 ## 📊 Stats
 
@@ -135,3 +182,5 @@ So, don't wait up—because I'm on my way.
 *"Good software is cultivated, not assembled — each layer of abstraction should feel as natural as the one beneath it."*
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0b7a3e,100:09e611&height=120&section=footer&reversal=true" width="100%" alt="footer" />
