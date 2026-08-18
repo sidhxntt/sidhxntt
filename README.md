@@ -105,6 +105,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#28](https://github.com/sidhxntt/rudder/pull/28) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+2. ℹ️ Labeled issue [#35](https://github.com/sidhxntt/rudder/issues/35) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+3. ℹ️ Labeled issue [#35](https://github.com/sidhxntt/rudder/issues/35) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+4. ❗ Opened issue [#35](https://github.com/sidhxntt/rudder/issues/35) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+5. ℹ️ Labeled issue [#34](https://github.com/sidhxntt/rudder/issues/34) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
 <!--END_SECTION:activity-->
 
 </td>
