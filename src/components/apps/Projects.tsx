@@ -5,6 +5,7 @@ import Image from "next/image";
 import { projects, type Project } from "@/data/portfolio";
 import { consumePendingProject, subscribeProjectNav } from "@/lib/project-nav";
 import { playClick } from "@/lib/sounds";
+import { ProjectCarousel } from "./ProjectCarousel";
 
 function ProjectDetail({ project, onBack }: { project: Project; onBack: () => void }) {
   // Project links leave the OS entirely — the in-app Safari proxies pages and
@@ -25,17 +26,11 @@ function ProjectDetail({ project, onBack }: { project: Project; onBack: () => vo
       >
         ← Back
       </button>
-      {/* object-contain + a capped height shows the whole screenshot without
-          cropping, while leaving the description above the fold */}
-      <div className="relative mb-4 h-56 w-full shrink-0 overflow-hidden rounded-xl bg-neutral-100 shadow-inner max-md:h-52 max-md:rounded-2xl dark:bg-neutral-800">
-        <Image
-          src={project.preview}
-          alt={`${project.name} screenshot`}
-          fill
-          sizes="(max-width: 768px) 100vw, 800px"
-          className="object-contain"
-        />
-      </div>
+      <ProjectCarousel
+        projectId={project.id}
+        projectName={project.name}
+        images={project.images}
+      />
       <h1 className="text-xl font-bold max-md:text-2xl">{project.name}</h1>
       <p className="mb-3 text-sm text-neutral-500 dark:text-neutral-400">{project.tagline}</p>
       <p className="mb-4 text-[15px] leading-relaxed">{project.description}</p>
@@ -103,7 +98,7 @@ export function Projects() {
           >
             <div className="relative aspect-[2940/1912] w-full overflow-hidden rounded-lg bg-neutral-200 shadow-sm transition group-hover:scale-[1.02] max-md:rounded-xl dark:bg-neutral-800">
               <Image
-                src={project.preview}
+                src={project.images[0]}
                 alt={`${project.name} screenshot`}
                 fill
                 sizes="(max-width: 768px) 100vw, 300px"

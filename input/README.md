@@ -13,7 +13,7 @@ file names the source file it maps to.
 | `01-site.json` | Browser tab title + link previews | 0 — review only |
 | `02-profile.json` | Your name, role, bio, skills | 3 |
 | `03-links.json` | GitHub / LinkedIn / Twitter | 3 |
-| `04-projects.json` | The four project tiles | 20 |
+| `04-projects.json` | Project tiles + carousel images | 0 — review only |
 | `05-resume.json` | In-app resume entries | 13 |
 | `06-photos.json` | Photos app captions | 0 — optional |
 | `07-music.json` | Your "My Songs" list | 0 — optional |
