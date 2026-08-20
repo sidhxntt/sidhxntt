@@ -105,11 +105,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/sidhxntt/Praxis/pull/3) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
-2. 💪 Opened PR [#4](https://github.com/sidhxntt/Praxis/pull/4) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
-3. 💪 Opened PR [#3](https://github.com/sidhxntt/Praxis/pull/3) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
-4. ❌ Closed PR [#1](https://github.com/sidhxntt/Praxis/pull/1) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
-5. 🎉 Merged PR [#28](https://github.com/sidhxntt/rudder/pull/28) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+1. 🎉 Merged PR [#26](https://github.com/sidhxntt/Praxis/pull/26) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+2. 💪 Opened PR [#26](https://github.com/sidhxntt/Praxis/pull/26) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+3. 🎉 Merged PR [#25](https://github.com/sidhxntt/Praxis/pull/25) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+4. 💪 Opened PR [#25](https://github.com/sidhxntt/Praxis/pull/25) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+5. 🎉 Merged PR [#24](https://github.com/sidhxntt/Praxis/pull/24) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
 <!--END_SECTION:activity-->
 
 </td>
