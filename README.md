@@ -131,9 +131,9 @@ So, don't wait up—because I'm on my way.
 ### ⏱️ Where the hours go
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-44%20hrs%2018%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-48%20hrs%209%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-45%20hrs%2017%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-49%20hrs%2044%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -155,12 +155,12 @@ So, don't wait up—because I'm on my way.
 
 ```text
 Monday                   662 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.51 % 
-Tuesday                  556 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.35 % 
-Wednesday                2056 commits        ██████████░░░░░░░░░░░░░░░   41.96 % 
+Tuesday                  556 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.34 % 
+Wednesday                2056 commits        ██████████░░░░░░░░░░░░░░░   41.95 % 
 Thursday                 522 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.65 % 
 Friday                   359 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.33 % 
 Saturday                 404 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.24 % 
-Sunday                   341 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.96 % 
+Sunday                   342 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.98 % 
 ```
 
 
@@ -168,49 +168,49 @@ Sunday                   341 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-TypeScript               13 hrs 37 mins      █████████░░░░░░░░░░░░░░░░   37.76 % 
-Markdown                 8 hrs 15 mins       ██████░░░░░░░░░░░░░░░░░░░   22.87 % 
-Dart                     2 hrs 34 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.12 % 
-CSS                      2 hrs 26 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.75 % 
-YAML                     2 hrs 4 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.73 % 
+TypeScript               13 hrs 37 mins      ██████████░░░░░░░░░░░░░░░   38.58 % 
+Markdown                 9 hrs 6 mins        ██████░░░░░░░░░░░░░░░░░░░   25.78 % 
+CSS                      2 hrs 26 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
+YAML                     2 hrs 4 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.86 % 
+JSON                     1 hr 36 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.58 % 
 
 🔥 Editors: 
-Codex CLI                22 hrs 43 mins      ████████████████░░░░░░░░░   62.97 % 
-Claude Code              11 hrs 33 mins      ████████░░░░░░░░░░░░░░░░░   32.05 % 
-VS Code                  1 hr 45 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.87 % 
+Codex CLI                23 hrs 30 mins      █████████████████░░░░░░░░   66.54 % 
+Claude Code              9 hrs 33 mins       ███████░░░░░░░░░░░░░░░░░░   27.04 % 
+VS Code                  1 hr 58 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.57 % 
+Codex Vscode             15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
 Test                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
-Unknown Editor           0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
 
 🐱‍💻 Projects: 
-Fitness                  11 hrs 32 mins      ████████░░░░░░░░░░░░░░░░░   31.96 % 
-Praxis                   11 hrs 31 mins      ████████░░░░░░░░░░░░░░░░░   31.91 % 
-backend                  4 hrs 51 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.48 % 
-rudder                   3 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.41 % 
-user_app                 2 hrs 44 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 % 
+Fitness                  11 hrs 35 mins      ████████░░░░░░░░░░░░░░░░░   32.83 % 
+Praxis                   11 hrs 31 mins      ████████░░░░░░░░░░░░░░░░░   32.61 % 
+backend                  4 hrs 51 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.77 % 
+rudder                   3 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.59 % 
+sidhxntt                 1 hr 29 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.21 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 35 hrs 52 mins (99.42%)
+⏱ AI Coding Time: 34 hrs 58 mins (99.0%)
 
-✍️ 43,591 lines written by AI, 527 lines written by hand (98.81% AI-written)
+✍️ 44,139 lines written by AI, 528 lines written by hand (98.82% AI-written)
 
-🔤 39,958,964 Input Tokens, 3,579,636 Output Tokens
+🔤 36,831,143 Input Tokens, 3,471,946 Output Tokens
 
-💵 $2466.73 Estimated AI Cost This Week
+💵 $2366.34 Estimated AI Cost This Week
 
-🧠 92 AI Sessions, 501 AI Prompts
+🧠 94 AI Sessions, 542 AI Prompts
 
-GPT                      38,623 lines        ██████████████████████░░░   86.40 % 
-Opus                     5,844 lines         ███░░░░░░░░░░░░░░░░░░░░░░   13.07 % 
+GPT                      40,632 lines        ██████████████████████░░░   89.80 % 
+Opus                     4,383 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   09.69 % 
 Codex-Cli                234 lines           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 98.81% of written lines came from AI
-📄 Detailed Prompter — average 737 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 1.17% of changed lines were hand-edited
+🤖 AI-Driven — 98.82% of written lines came from AI
+📄 Detailed Prompter — average 693 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🚀 High AI Trust — 1.16% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -230,7 +230,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 23/08/2026 00:37:53 UTC
+ Last Updated on 24/08/2026 00:37:28 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
