@@ -105,11 +105,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#3](https://github.com/sidhxntt/MacBrain/pull/3) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
-2. 🎉 Merged PR [#2](https://github.com/sidhxntt/MacBrain/pull/2) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
-3. 💪 Opened PR [#2](https://github.com/sidhxntt/MacBrain/pull/2) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
-4. 🎉 Merged PR [#1](https://github.com/sidhxntt/MacBrain/pull/1) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
-5. 💪 Opened PR [#1](https://github.com/sidhxntt/MacBrain/pull/1) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
+1. 🎉 Merged PR [#9](https://github.com/sidhxntt/MacBrain/pull/9) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
+2. 🎉 Merged PR [#7](https://github.com/sidhxntt/MacBrain/pull/7) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
+3. 🎉 Merged PR [#5](https://github.com/sidhxntt/MacBrain/pull/5) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
+4. 🎉 Merged PR [#8](https://github.com/sidhxntt/MacBrain/pull/8) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
+5. 🎉 Merged PR [#6](https://github.com/sidhxntt/MacBrain/pull/6) in [sidhxntt/MacBrain](https://github.com/sidhxntt/MacBrain)
 <!--END_SECTION:activity-->
 
 </td>
