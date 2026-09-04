@@ -105,11 +105,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8](https://github.com/sidhxntt/NotchFlow/pull/8) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
-2. 💪 Opened PR [#8](https://github.com/sidhxntt/NotchFlow/pull/8) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
-3. 🎉 Merged PR [#7](https://github.com/sidhxntt/NotchFlow/pull/7) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
-4. 💪 Opened PR [#7](https://github.com/sidhxntt/NotchFlow/pull/7) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
-5. 🎉 Merged PR [#6](https://github.com/sidhxntt/NotchFlow/pull/6) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
+1. 🎉 Merged PR [#10](https://github.com/sidhxntt/NotchFlow/pull/10) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
+2. 💪 Opened PR [#10](https://github.com/sidhxntt/NotchFlow/pull/10) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
+3. 💪 Opened PR [#9](https://github.com/sidhxntt/NotchFlow/pull/9) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
+4. 🎉 Merged PR [#8](https://github.com/sidhxntt/NotchFlow/pull/8) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
+5. 💪 Opened PR [#8](https://github.com/sidhxntt/NotchFlow/pull/8) in [sidhxntt/NotchFlow](https://github.com/sidhxntt/NotchFlow)
 <!--END_SECTION:activity-->
 
 </td>
