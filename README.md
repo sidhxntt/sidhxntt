@@ -131,9 +131,9 @@ So, don't wait up—because I'm on my way.
 ### ⏱️ Where the hours go
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-138%20hrs%2059%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-140%20hrs%2011%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-138%20hrs%2039%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-139%20hrs%2059%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -158,7 +158,7 @@ Monday                   730 commits         ███░░░░░░░░�
 Tuesday                  730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
 Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.80 % 
 Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.24 % 
-Friday                   416 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 % 
+Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 % 
 Saturday                 416 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 % 
 Sunday                   343 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.37 % 
 ```
@@ -168,43 +168,46 @@ Sunday                   343 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 4 hrs 26 mins       ███████████████████░░░░░░   74.47 % 
-TypeScript               32 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.97 % 
-Other                    30 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.67 % 
-CSS                      10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.89 % 
-JSON                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.47 % 
+Markdown                 4 hrs 59 mins       ███████████████░░░░░░░░░░   60.42 % 
+Other                    50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
+Dart                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 % 
+TypeScript               32 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.47 % 
+Makefile                 25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
 
 🔥 Editors: 
-Codex CLI                3 hrs 48 mins       ████████████████░░░░░░░░░   65.09 % 
-VS Code                  2 hrs 2 mins        █████████░░░░░░░░░░░░░░░░   34.91 % 
+Codex CLI                6 hrs 2 mins        ███████████████████░░░░░░   74.05 % 
+VS Code                  2 hrs 6 mins        ██████░░░░░░░░░░░░░░░░░░░   25.95 % 
 
 🐱‍💻 Projects: 
-Banner Health Clinical Wi3 hrs 4 mins        █████████████░░░░░░░░░░░░   52.42 % 
-Praxis                   2 hrs 31 mins       ███████████░░░░░░░░░░░░░░   43.04 % 
-rudder                   15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.54 % 
+Banner Health Clinical Wi3 hrs 23 mins       ██████████░░░░░░░░░░░░░░░   41.69 % 
+Praxis                   2 hrs 31 mins       ████████░░░░░░░░░░░░░░░░░   30.92 % 
+backend                  1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
+user_app                 42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.66 % 
+rudder                   15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 4 hrs 53 mins (83.54%)
+⏱ AI Coding Time: 7 hrs 9 mins (87.83%)
 
-✍️ 2,447 lines written by AI, 69 lines written by hand (97.26% AI-written)
+✍️ 2,911 lines written by AI, 69 lines written by hand (97.68% AI-written)
 
-🔤 4,681,136 Input Tokens, 234,570 Output Tokens
+🔤 5,898,054 Input Tokens, 330,642 Output Tokens
 
-💵 $18.30 Estimated AI Cost This Week
+💵 $28.14 Estimated AI Cost This Week
 
-🧠 6 AI Sessions, 107 AI Prompts
+🧠 9 AI Sessions, 147 AI Prompts
 
-GPT                      2,694 lines         █████████████████████████   99.19 % 
-Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.81 % 
+GPT                      3,195 lines         █████████████████████████   99.32 % 
+Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.68 % 
+Codex-Cli                0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 97.26% of written lines came from AI
-📝 Concise Prompter — average 135 characters per prompt
-🔁 Iterative Prompter — average 18 prompts per session
-🚀 High AI Trust — 2.59% of changed lines were hand-edited
+🤖 AI-Driven — 97.68% of written lines came from AI
+📝 Concise Prompter — average 133 characters per prompt
+🔁 Iterative Prompter — average 16 prompts per session
+🚀 High AI Trust — 2.24% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -224,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 18/09/2026 01:58:34 UTC
+ Last Updated on 19/09/2026 02:03:07 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
