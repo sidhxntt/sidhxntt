@@ -156,11 +156,11 @@ So, don't wait up—because I'm on my way.
 ```text
 Monday                   730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
 Tuesday                  730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
-Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.79 % 
+Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.78 % 
 Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.23 % 
-Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 % 
-Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.75 % 
-Sunday                   343 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.37 % 
+Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
+Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
+Sunday                   344 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.39 % 
 ```
 
 
@@ -168,36 +168,36 @@ Sunday                   343 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 4 hrs 59 mins       ███████████████░░░░░░░░░░   60.42 % 
-Other                    50 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.25 % 
-Dart                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.38 % 
-TypeScript               32 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.47 % 
-Makefile                 25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.19 % 
+Markdown                 5 hrs 31 mins       ████████████████░░░░░░░░░   62.32 % 
+Other                    54 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
+Dart                     41 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.81 % 
+TypeScript               32 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.03 % 
+Makefile                 25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.83 % 
 
 🔥 Editors: 
-Codex CLI                6 hrs 2 mins        ███████████████████░░░░░░   74.05 % 
-VS Code                  2 hrs 6 mins        ██████░░░░░░░░░░░░░░░░░░░   25.95 % 
+Codex CLI                6 hrs 37 mins       ███████████████████░░░░░░   75.72 % 
+VS Code                  2 hrs 7 mins        ██████░░░░░░░░░░░░░░░░░░░   24.28 % 
 
 🐱‍💻 Projects: 
-Banner Health Clinical Wi3 hrs 23 mins       ██████████░░░░░░░░░░░░░░░   41.69 % 
-Praxis                   2 hrs 31 mins       ████████░░░░░░░░░░░░░░░░░   30.92 % 
-backend                  1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
-user_app                 42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.66 % 
-rudder                   15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
+Banner Health Clinical Wi3 hrs 59 mins       ███████████░░░░░░░░░░░░░░   45.71 % 
+Praxis                   2 hrs 31 mins       ███████░░░░░░░░░░░░░░░░░░   28.79 % 
+backend                  1 hr 15 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.40 % 
+user_app                 42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 % 
+rudder                   15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.04 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 9 mins (87.83%)
+⏱ AI Coding Time: 7 hrs 45 mins (88.67%)
 
 ✍️ 2,911 lines written by AI, 69 lines written by hand (97.68% AI-written)
 
-🔤 5,898,054 Input Tokens, 330,642 Output Tokens
+🔤 6,635,038 Input Tokens, 341,070 Output Tokens
 
-💵 $28.14 Estimated AI Cost This Week
+💵 $28.38 Estimated AI Cost This Week
 
-🧠 9 AI Sessions, 147 AI Prompts
+🧠 10 AI Sessions, 163 AI Prompts
 
 GPT                      3,195 lines         █████████████████████████   99.32 % 
 Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.68 % 
@@ -205,7 +205,7 @@ Codex-Cli                0 lines             ░░░░░░░░░░░�
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 97.68% of written lines came from AI
-📝 Concise Prompter — average 133 characters per prompt
+📝 Concise Prompter — average 132 characters per prompt
 🔁 Iterative Prompter — average 16 prompts per session
 🚀 High AI Trust — 2.24% of changed lines were hand-edited
 ```
@@ -227,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 20/09/2026 02:07:00 UTC
+ Last Updated on 21/09/2026 02:08:06 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
