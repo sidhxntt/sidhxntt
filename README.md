@@ -131,9 +131,9 @@ So, don't wait up—because I'm on my way.
 ### ⏱️ Where the hours go
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-142%20hrs%209%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-142%20hrs%2041%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-142%20hrs%2015%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-142%20hrs%2051%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -154,9 +154,9 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
-Tuesday                  730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
-Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.78 % 
+Monday                   731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
+Tuesday                  730 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.55 % 
+Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.77 % 
 Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.23 % 
 Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
 Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
@@ -227,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 21/09/2026 02:08:06 UTC
+ Last Updated on 22/09/2026 02:14:20 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
