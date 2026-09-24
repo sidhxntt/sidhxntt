@@ -137,13 +137,13 @@ So, don't wait up—because I'm on my way.
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-30.48%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-30.49%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.3 MB Used in GitHub's Storage 
  > 
-> 🏆 589 Contributions in the Year 2026
+> 🏆 602 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -154,13 +154,13 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
-Tuesday                  731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
-Wednesday                2196 commits        ██████████░░░░░░░░░░░░░░░   40.76 % 
-Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.23 % 
-Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
-Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 % 
-Sunday                   344 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.39 % 
+Monday                   731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
+Tuesday                  731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
+Wednesday                2209 commits        ██████████░░░░░░░░░░░░░░░   40.91 % 
+Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.20 % 
+Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 % 
+Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 % 
+Sunday                   344 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.37 % 
 ```
 
 
@@ -168,44 +168,46 @@ Sunday                   344 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 3 hrs               ██████████████░░░░░░░░░░░   56.30 % 
-Other                    54 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.16 % 
-Dart                     41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
-Makefile                 25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 % 
-SQL                      16 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.29 % 
+Markdown                 2 hrs 57 mins       █████████████░░░░░░░░░░░░   51.40 % 
+Other                    44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.99 % 
+Dart                     41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.03 % 
+SQL                      31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.02 % 
+Makefile                 25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.44 % 
 
 🔥 Editors: 
-Codex CLI                4 hrs 13 mins       ████████████████████░░░░░   80.82 % 
-VS Code                  1 hr                █████░░░░░░░░░░░░░░░░░░░░   19.18 % 
+Codex CLI                4 hrs 45 mins       █████████████████████░░░░   84.40 % 
+VS Code                  52 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.60 % 
 
 🐱‍💻 Projects: 
-Banner Health Clinical Wi3 hrs 16 mins       ████████████████░░░░░░░░░   62.44 % 
-backend                  1 hr 15 mins        ██████░░░░░░░░░░░░░░░░░░░   24.08 % 
-user_app                 42 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.49 % 
+Banner Health Clinical Wi2 hrs 30 mins       ███████████░░░░░░░░░░░░░░   44.51 % 
+backend                  2 hrs 5 mins        █████████░░░░░░░░░░░░░░░░   36.92 % 
+user_app                 42 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
+NotchBrain               20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.95 % 
+NotchFlow                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 4 hrs 51 mins (92.84%)
+⏱ AI Coding Time: 5 hrs 24 mins (95.87%)
 
-✍️ 2,118 lines written by AI, 3 lines written by hand (99.86% AI-written)
+✍️ 3,155 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 4,980,526 Input Tokens, 198,378 Output Tokens
+🔤 5,063,784 Input Tokens, 271,234 Output Tokens
 
-💵 $18.09 Estimated AI Cost This Week
+💵 $24.05 Estimated AI Cost This Week
 
-🧠 7 AI Sessions, 111 AI Prompts
+🧠 11 AI Sessions, 104 AI Prompts
 
-GPT                      2,390 lines         █████████████████████████   99.09 % 
-Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.91 % 
+GPT                      3,430 lines         █████████████████████████   99.36 % 
+Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
 Codex-Cli                0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.86% of written lines came from AI
-📝 Concise Prompter — average 118 characters per prompt
-🔁 Iterative Prompter — average 16 prompts per session
-🚀 High AI Trust — 0.22% of changed lines were hand-edited
+🤖 AI-Driven — 100.0% of written lines came from AI
+📝 Concise Prompter — average 117 characters per prompt
+🔁 Iterative Prompter — average 9 prompts per session
+🚀 High AI Trust — 0.09% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -225,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 23/09/2026 02:13:40 UTC
+ Last Updated on 24/09/2026 02:00:31 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
