@@ -131,19 +131,19 @@ So, don't wait up—because I'm on my way.
 ### ⏱️ Where the hours go
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-142%20hrs%2041%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-143%20hrs%2059%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-142%20hrs%2051%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-144%20hrs%204%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-30.49%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-30.55%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 1.3 MB Used in GitHub's Storage 
  > 
-> 🏆 602 Contributions in the Year 2026
+> 🏆 609 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -154,13 +154,13 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
-Tuesday                  731 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
-Wednesday                2209 commits        ██████████░░░░░░░░░░░░░░░   40.91 % 
-Thursday                 551 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.20 % 
-Friday                   417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 % 
-Saturday                 417 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 % 
-Sunday                   344 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.37 % 
+Monday                   738 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
+Tuesday                  733 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.46 % 
+Wednesday                2217 commits        ██████████░░░░░░░░░░░░░░░   40.72 % 
+Thursday                 554 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.18 % 
+Friday                   440 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.08 % 
+Saturday                 418 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
+Sunday                   344 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.32 % 
 ```
 
 
@@ -168,46 +168,46 @@ Sunday                   344 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 2 hrs 57 mins       █████████████░░░░░░░░░░░░   51.40 % 
-Other                    44 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.99 % 
-Dart                     41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.03 % 
-SQL                      31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.02 % 
-Makefile                 25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.44 % 
+Dart                     2 hrs 49 mins       ███████░░░░░░░░░░░░░░░░░░   28.64 % 
+Markdown                 2 hrs 28 mins       ██████░░░░░░░░░░░░░░░░░░░   25.15 % 
+TypeScript               1 hr 33 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.77 % 
+Makefile                 1 hr 31 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.51 % 
+SQL                      34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.89 % 
 
 🔥 Editors: 
-Codex CLI                4 hrs 45 mins       █████████████████████░░░░   84.40 % 
-VS Code                  52 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.60 % 
+Codex CLI                9 hrs 23 mins       ████████████████████████░   96.22 % 
+VS Code                  22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.78 % 
 
 🐱‍💻 Projects: 
-Banner Health Clinical Wi2 hrs 30 mins       ███████████░░░░░░░░░░░░░░   44.51 % 
-backend                  2 hrs 5 mins        █████████░░░░░░░░░░░░░░░░   36.92 % 
-user_app                 42 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-NotchBrain               20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.95 % 
-NotchFlow                0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
+backend                  5 hrs 4 mins        █████████████░░░░░░░░░░░░   52.09 % 
+user_app                 2 hrs 51 mins       ███████░░░░░░░░░░░░░░░░░░   29.31 % 
+Banner Health Clinical Wi1 hr 4 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.98 % 
+landing_page             24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 % 
+NotchBrain               20 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 hrs 24 mins (95.87%)
+⏱ AI Coding Time: 9 hrs 38 mins (98.82%)
 
-✍️ 3,155 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 3,651 lines written by AI, 1 lines written by hand (99.97% AI-written)
 
-🔤 5,063,784 Input Tokens, 271,234 Output Tokens
+🔤 4,791,151 Input Tokens, 416,874 Output Tokens
 
-💵 $24.05 Estimated AI Cost This Week
+💵 $46.04 Estimated AI Cost This Week
 
-🧠 11 AI Sessions, 104 AI Prompts
+🧠 11 AI Sessions, 157 AI Prompts
 
-GPT                      3,430 lines         █████████████████████████   99.36 % 
-Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
+GPT                      4,050 lines         █████████████████████████   99.46 % 
+Sonnet                   22 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
 Codex-Cli                0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 117 characters per prompt
-🔁 Iterative Prompter — average 9 prompts per session
-🚀 High AI Trust — 0.09% of changed lines were hand-edited
+🤖 AI-Driven — 99.97% of written lines came from AI
+📝 Concise Prompter — average 195 characters per prompt
+🔁 Iterative Prompter — average 14 prompts per session
+🚀 High AI Trust — 0.1% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -227,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 24/09/2026 02:00:31 UTC
+ Last Updated on 25/09/2026 02:17:00 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
