@@ -156,8 +156,8 @@ So, don't wait up—because I'm on my way.
 ```text
 Monday                   834 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.60 % 
 Tuesday                  848 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.81 % 
-Wednesday                2710 commits        ██████████░░░░░░░░░░░░░░░   40.94 % 
-Thursday                 632 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.55 % 
+Wednesday                2710 commits        ██████████░░░░░░░░░░░░░░░   40.93 % 
+Thursday                 633 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.56 % 
 Friday                   681 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.29 % 
 Saturday                 468 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.07 % 
 Sunday                   447 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.75 % 
@@ -168,46 +168,46 @@ Sunday                   447 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 4 hrs 17 mins       █████████░░░░░░░░░░░░░░░░   36.80 % 
-Dart                     2 hrs 26 mins       █████░░░░░░░░░░░░░░░░░░░░   20.86 % 
-TypeScript               2 hrs 9 mins        █████░░░░░░░░░░░░░░░░░░░░   18.45 % 
-Makefile                 1 hr 28 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.68 % 
-Other                    32 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.60 % 
+Markdown                 3 hrs 34 mins       ███████████████░░░░░░░░░░   58.35 % 
+TypeScript               41 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.20 % 
+Other                    29 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.07 % 
+YAML                     27 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.46 % 
+Makefile                 22 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.19 % 
 
 🔥 Editors: 
-Codex CLI                10 hrs 7 mins       ██████████████████████░░░   86.63 % 
-VS Code                  1 hr 30 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.90 % 
-Codex Vscode             3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
+Codex CLI                4 hrs 36 mins       ███████████████████░░░░░░   75.21 % 
+VS Code                  1 hr 27 mins        ██████░░░░░░░░░░░░░░░░░░░   23.89 % 
+Codex Vscode             3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
 
 🐱‍💻 Projects: 
-backend                  5 hrs 28 mins       ████████████░░░░░░░░░░░░░   46.91 % 
-user_app                 3 hrs 17 mins       ███████░░░░░░░░░░░░░░░░░░   28.21 % 
-Praxis                   1 hr 12 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
-rudder                   45 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.49 % 
-NotchBrain               31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.46 % 
+backend                  2 hrs 29 mins       ██████████░░░░░░░░░░░░░░░   40.49 % 
+Praxis                   1 hr 12 mins        █████░░░░░░░░░░░░░░░░░░░░   19.67 % 
+user_app                 1 hr 8 mins         █████░░░░░░░░░░░░░░░░░░░░   18.63 % 
+rudder                   45 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
+NotchBrain               31 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.50 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 10 hrs 53 mins (93.21%)
+⏱ AI Coding Time: 5 hrs 20 mins (87.14%)
 
-✍️ 3,503 lines written by AI, 27 lines written by hand (99.24% AI-written)
+✍️ 1,882 lines written by AI, 26 lines written by hand (98.64% AI-written)
 
-🔤 6,313,524 Input Tokens, 669,011 Output Tokens
+🔤 4,282,660 Input Tokens, 465,698 Output Tokens
 
-💵 $398.27 Estimated AI Cost This Week
+💵 $375.57 Estimated AI Cost This Week
 
-🧠 9 AI Sessions, 190 AI Prompts
+🧠 7 AI Sessions, 110 AI Prompts
 
-GPT                      3,806 lines         █████████████████████████   99.95 % 
-Codex-Cli                2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 % 
+GPT                      1,927 lines         █████████████████████████   99.90 % 
+Codex-Cli                2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.24% of written lines came from AI
-📝 Concise Prompter — average 213 characters per prompt
-🔁 Iterative Prompter — average 21 prompts per session
-🚀 High AI Trust — 3.05% of changed lines were hand-edited
+🤖 AI-Driven — 98.64% of written lines came from AI
+📝 Concise Prompter — average 172 characters per prompt
+🔁 Iterative Prompter — average 16 prompts per session
+🚀 High AI Trust — 5.81% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -227,7 +227,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 01/10/2026 02:54:30 UTC
+ Last Updated on 02/10/2026 02:57:09 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
