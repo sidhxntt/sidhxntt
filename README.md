@@ -137,7 +137,7 @@ So, don't wait up—because I'm on my way.
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-36.10%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-37.38%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -154,13 +154,13 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   888 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.35 % 
-Tuesday                  929 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.92 % 
-Wednesday                2965 commits        ██████████░░░░░░░░░░░░░░░   41.23 % 
-Thursday                 683 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.50 % 
-Friday                   741 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.30 % 
-Saturday                 516 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.18 % 
-Sunday                   469 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.52 % 
+Monday                   906 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.99 % 
+Tuesday                  963 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
+Wednesday                3179 commits        ███████████░░░░░░░░░░░░░░   42.07 % 
+Thursday                 713 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.44 % 
+Friday                   780 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
+Saturday                 540 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.15 % 
+Sunday                   475 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.29 % 
 ```
 
 
@@ -226,7 +226,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 09/10/2026 03:29:08 UTC
+ Last Updated on 10/10/2026 03:08:39 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
