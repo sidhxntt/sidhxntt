@@ -154,7 +154,7 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   906 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.99 % 
+Monday                   907 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
 Tuesday                  963 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
 Wednesday                3179 commits        ███████████░░░░░░░░░░░░░░   42.06 % 
 Thursday                 713 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.43 % 
@@ -168,45 +168,45 @@ Sunday                   476 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 2 hrs 9 mins        ██████████████░░░░░░░░░░░   56.46 % 
-TypeScript               36 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.96 % 
-Other                    34 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.02 % 
-Makefile                 21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.21 % 
-JSON                     6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.85 % 
+Dart                     1 hr 39 mins        █████████░░░░░░░░░░░░░░░░   34.94 % 
+Markdown                 1 hr 8 mins         ██████░░░░░░░░░░░░░░░░░░░   23.85 % 
+TypeScript               31 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.90 % 
+Makefile                 28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.08 % 
+Other                    28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.99 % 
 
 🔥 Editors: 
-Codex Vscode             1 hr 57 mins        █████████████░░░░░░░░░░░░   51.36 % 
-VS Code                  1 hr 25 mins        █████████░░░░░░░░░░░░░░░░   37.37 % 
-Codex CLI                25 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.27 % 
+Codex Vscode             4 hrs 18 mins       ███████████████████████░░   90.66 % 
+Codex CLI                18 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.38 % 
+VS Code                  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.96 % 
 
 🐱‍💻 Projects: 
-DevXp                    2 hrs 12 mins       ██████████████░░░░░░░░░░░   57.87 % 
-Praxis                   50 mins             █████░░░░░░░░░░░░░░░░░░░░   21.94 % 
-rudder                   23 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.03 % 
-NotchBrain               8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.59 % 
-can-you-see-the-prompt-an6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.70 % 
+backend                  2 hrs 3 mins        ███████████░░░░░░░░░░░░░░   43.27 % 
+user_app                 1 hr 40 mins        █████████░░░░░░░░░░░░░░░░   35.28 % 
+Praxis                   33 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.58 % 
+DevXp                    13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
+can-you-see-the-prompt-an6 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.17 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 51 mins (74.55%)
+⏱ AI Coding Time: 4 hrs 40 mins (98.3%)
 
-✍️ 2,774 lines written by AI, 197 lines written by hand (93.37% AI-written)
+✍️ 1,908 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 1,334,510 Input Tokens, 179,356 Output Tokens
+🔤 2,788,155 Input Tokens, 233,533 Output Tokens
 
-💵 $14.88 Estimated AI Cost This Week
+💵 $25.78 Estimated AI Cost This Week
 
-🧠 19 AI Sessions, 93 AI Prompts
+🧠 19 AI Sessions, 124 AI Prompts
 
-GPT                      2,786 lines         █████████████████████████   100.00 % 
+GPT                      1,965 lines         █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 93.37% of written lines came from AI
-📝 Concise Prompter — average 148 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 16.89% of changed lines were hand-edited
+🤖 AI-Driven — 100.0% of written lines came from AI
+📚 Verbose Prompter — average 2,655 characters per prompt
+🔁 Iterative Prompter — average 7 prompts per session
+🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -226,7 +226,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 12/10/2026 03:04:32 UTC
+ Last Updated on 13/10/2026 04:20:22 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
