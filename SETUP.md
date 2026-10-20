@@ -156,3 +156,18 @@ Two things worth knowing if you ever redeploy:
 Neither deployment is wired to a git repo, so they will not rebuild on their
 own. To pick up upstream changes, re-clone the project and run
 `vercel deploy --prod`.
+
+## CI deployments
+
+The repository now has one production workflow that deploys the same `main`
+build to both Vercel and Netlify. Add these repository secrets before enabling
+the workflow:
+
+| Provider | Secrets |
+| --- | --- |
+| Vercel | `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` |
+| Netlify | `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID` |
+
+The workflow is `.github/workflows/deploy.yml`; `netlify.toml` keeps the
+Netlify build settings in the repository. No credentials belong in either
+file.
