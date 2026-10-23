@@ -143,7 +143,7 @@ So, don't wait up—because I'm on my way.
 
 > 📦 1.3 MB Used in GitHub's Storage 
  > 
-> 🏆 740 Contributions in the Year 2026
+> 🏆 743 Contributions in the Year 2026
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -154,12 +154,12 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   1060 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.31 % 
-Tuesday                  1857 commits        █████░░░░░░░░░░░░░░░░░░░░   18.06 % 
-Wednesday                4143 commits        ██████████░░░░░░░░░░░░░░░   40.29 % 
-Thursday                 856 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.32 % 
-Friday                   1031 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.03 % 
-Saturday                 698 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.79 % 
+Monday                   1060 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.30 % 
+Tuesday                  1857 commits        █████░░░░░░░░░░░░░░░░░░░░   18.05 % 
+Wednesday                4143 commits        ██████████░░░░░░░░░░░░░░░   40.27 % 
+Thursday                 860 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.36 % 
+Friday                   1031 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.02 % 
+Saturday                 698 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.78 % 
 Sunday                   639 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.21 % 
 ```
 
@@ -168,44 +168,44 @@ Sunday                   639 commits         ██░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Markdown                 5 hrs 55 mins       ████████░░░░░░░░░░░░░░░░░   32.55 % 
-Dart                     5 hrs 54 mins       ████████░░░░░░░░░░░░░░░░░   32.47 % 
-Bash                     1 hr 44 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.54 % 
-Other                    1 hr 43 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.49 % 
-TypeScript               1 hr 8 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.24 % 
+Dart                     6 hrs 3 mins        ███████░░░░░░░░░░░░░░░░░░   29.24 % 
+Markdown                 4 hrs 47 mins       ██████░░░░░░░░░░░░░░░░░░░   23.08 % 
+Other                    4 hrs 21 mins       █████░░░░░░░░░░░░░░░░░░░░   20.99 % 
+Bash                     1 hr 44 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.39 % 
+TypeScript               1 hr 38 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.91 % 
 
 🔥 Editors: 
-Codex Vscode             13 hrs 16 mins      ██████████████████░░░░░░░   72.90 % 
-VS Code                  4 hrs 56 mins       ███████░░░░░░░░░░░░░░░░░░   27.10 % 
+Codex Vscode             16 hrs 58 mins      ████████████████████░░░░░   81.92 % 
+VS Code                  3 hrs 44 mins       █████░░░░░░░░░░░░░░░░░░░░   18.08 % 
 
 🐱‍💻 Projects: 
-user_app                 11 hrs 4 mins       ███████████████░░░░░░░░░░   60.76 % 
-backend                  3 hrs 55 mins       █████░░░░░░░░░░░░░░░░░░░░   21.52 % 
-landing_page             1 hr 31 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.36 % 
-Fitness                  1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
-sidhxntt                 27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.51 % 
+user_app                 9 hrs 55 mins       ████████████░░░░░░░░░░░░░   47.87 % 
+backend                  7 hrs 34 mins       █████████░░░░░░░░░░░░░░░░   36.55 % 
+landing_page             1 hr 31 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.35 % 
+Fitness                  1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.09 % 
+sidhxntt                 27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.21 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 15 hrs 37 mins (85.75%)
+⏱ AI Coding Time: 19 hrs 35 mins (94.5%)
 
-✍️ 8,800 lines written by AI, 633 lines written by hand (93.29% AI-written)
+✍️ 9,139 lines written by AI, 616 lines written by hand (93.69% AI-written)
 
-🔤 8,912,955 Input Tokens, 1,082,746 Output Tokens
+🔤 9,515,234 Input Tokens, 1,131,739 Output Tokens
 
-💵 $16.58 Estimated AI Cost This Week
+💵 $17.14 Estimated AI Cost This Week
 
-🧠 21 AI Sessions, 395 AI Prompts
+🧠 25 AI Sessions, 484 AI Prompts
 
-GPT                      9,813 lines         █████████████████████████   100.00 % 
+GPT                      10,172 lines        █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 93.29% of written lines came from AI
-📝 Concise Prompter — average 170 characters per prompt
+🤖 AI-Driven — 93.69% of written lines came from AI
+📝 Concise Prompter — average 155 characters per prompt
 🔁 Iterative Prompter — average 19 prompts per session
-🚀 High AI Trust — 6.43% of changed lines were hand-edited
+🚀 High AI Trust — 6.17% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -225,7 +225,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 22/10/2026 02:17:49 UTC
+ Last Updated on 23/10/2026 02:23:32 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
