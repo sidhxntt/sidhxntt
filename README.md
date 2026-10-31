@@ -135,7 +135,7 @@ So, don't wait up—because I'm on my way.
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-198%20hrs%2012%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-44.59%20million%20lines%20of%20code-blue?style=flat)
 
@@ -154,11 +154,11 @@ So, don't wait up—because I'm on my way.
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   1103 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.20 % 
-Tuesday                  1948 commits        █████░░░░░░░░░░░░░░░░░░░░   18.01 % 
+Monday                   1103 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.19 % 
+Tuesday                  1948 commits        ████░░░░░░░░░░░░░░░░░░░░░   18.00 % 
 Wednesday                4398 commits        ██████████░░░░░░░░░░░░░░░   40.65 % 
 Thursday                 915 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
-Friday                   1086 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.04 % 
+Friday                   1087 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.05 % 
 Saturday                 723 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.68 % 
 Sunday                   646 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.97 % 
 ```
@@ -168,38 +168,35 @@ Sunday                   646 commits         █░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Text                     11 mins             ████████████░░░░░░░░░░░░░   49.64 % 
-Other                    8 mins              █████████░░░░░░░░░░░░░░░░   37.10 % 
-Markdown                 3 mins              ███░░░░░░░░░░░░░░░░░░░░░░   13.26 % 
+Text                     3 mins              █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Codex Vscode             13 mins             ███████████████░░░░░░░░░░   58.02 % 
-VS Code                  9 mins              ██████████░░░░░░░░░░░░░░░   41.98 % 
+VS Code                  3 mins              █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-backend                  22 mins             █████████████████████████   100.00 % 
+backend                  3 mins              █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 22 mins (99.78%)
+⏱ AI Coding Time: 3 mins (98.64%)
 
-✍️ 96 lines written by AI, 28 lines written by hand (77.42% AI-written)
+✍️ 0 lines written by AI, 28 lines written by hand (0.0% AI-written)
 
-🔤 144,780 Input Tokens, 4,646 Output Tokens
+🔤 49,869 Input Tokens, 628 Output Tokens
 
-💵 $0.05 Estimated AI Cost This Week
+💵 $0.02 Estimated AI Cost This Week
 
-🧠 3 AI Sessions, 14 AI Prompts
+🧠 1 AI Sessions, 1 AI Prompts
 
-GPT                      96 lines            █████████████████████████   100.00 % 
+GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 77.42% of written lines came from AI
-📝 Concise Prompter — average 172 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 36.84% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
+📝 Concise Prompter — average 334 characters per prompt
+🎯 One-Shot Prompter — average 1 prompts per session
+🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in TypeScript** 
@@ -219,7 +216,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 30/10/2026 03:22:32 UTC
+ Last Updated on 31/10/2026 03:04:44 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
