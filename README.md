@@ -156,10 +156,10 @@ So, don't wait up—because I'm on my way.
 ```text
 Monday                   1103 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.19 % 
 Tuesday                  1948 commits        ████░░░░░░░░░░░░░░░░░░░░░   18.00 % 
-Wednesday                4398 commits        ██████████░░░░░░░░░░░░░░░   40.65 % 
+Wednesday                4398 commits        ██████████░░░░░░░░░░░░░░░   40.64 % 
 Thursday                 915 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
 Friday                   1087 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.05 % 
-Saturday                 723 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.68 % 
+Saturday                 724 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.69 % 
 Sunday                   646 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   05.97 % 
 ```
 
@@ -168,35 +168,19 @@ Sunday                   646 commits         █░░░░░░░░░░�
 
 ```text
 💬 Programming Languages: 
-Text                     3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-backend                  3 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 3 mins (98.64%)
-
-✍️ 0 lines written by AI, 28 lines written by hand (0.0% AI-written)
-
-🔤 49,869 Input Tokens, 628 Output Tokens
-
-💵 $0.02 Estimated AI Cost This Week
-
-🧠 1 AI Sessions, 1 AI Prompts
-
-GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 334 characters per prompt
-🎯 One-Shot Prompter — average 1 prompts per session
-🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in TypeScript** 
@@ -216,7 +200,7 @@ Jupyter Notebook         1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sidhxntt/sidhxntt/main/assets/bar_graph.png)
 
 
- Last Updated on 31/10/2026 03:04:44 UTC
+ Last Updated on 01/11/2026 03:01:08 UTC
 <!--END_SECTION:waka-->
 
 ### 🎧 What's on right now
