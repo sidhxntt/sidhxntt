@@ -105,11 +105,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/sidhxntt/DevXp/pull/3) in [sidhxntt/DevXp](https://github.com/sidhxntt/DevXp)
-2. 💪 Opened PR [#3](https://github.com/sidhxntt/DevXp/pull/3) in [sidhxntt/DevXp](https://github.com/sidhxntt/DevXp)
-3. 🎉 Merged PR [#50](https://github.com/sidhxntt/Praxis/pull/50) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
-4. 🎉 Merged PR [#73](https://github.com/sidhxntt/rudder/pull/73) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
-5. 💪 Opened PR [#73](https://github.com/sidhxntt/rudder/pull/73) in [sidhxntt/rudder](https://github.com/sidhxntt/rudder)
+1. 🎉 Merged PR [#3](https://github.com/Invytt/landing_page/pull/3) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
+2. 💪 Opened PR [#3](https://github.com/Invytt/landing_page/pull/3) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
+3. 🎉 Merged PR [#2](https://github.com/Invytt/landing_page/pull/2) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
+4. 💪 Opened PR [#2](https://github.com/Invytt/landing_page/pull/2) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
+5. 🎉 Merged PR [#1](https://github.com/Invytt/landing_page/pull/1) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
 <!--END_SECTION:activity-->
 
 </td>
