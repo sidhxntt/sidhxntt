@@ -935,6 +935,19 @@ html.menu-open {
   }
 }
 
+/* Writing */
+
+.writing {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--line);
+}
+.writing__item {
+  display: grid;
+  gap: 0.35rem;
+  padding-block: clamp(1.5rem, 3vw, 2.25rem);
+  border-bottom: 1px solid var(--line);
+}
+
 /* Experience */
 
 .timeline {

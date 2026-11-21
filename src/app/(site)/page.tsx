@@ -23,8 +23,32 @@ const [nowBefore, nowAfter] = profile.tagline.split(NOW.name);
 const SECTIONS = [
   { label: "Work", href: "#work" },
   { label: "Experience", href: "#experience" },
+  { label: "Writing", href: "#writing" },
   { label: "Contact", href: "#contact" },
 ];
+
+// Where I write things down. URLs come from linkApps (the same Medium and
+// Notion icons the Interactive OS shows); the words here are landing-only.
+const WRITING = [
+  {
+    id: "notion",
+    name: "System Design Wiki",
+    summary:
+      "My notes on designing real systems, kept as a wiki: the fundamentals first, then domain knowledge and real use cases.",
+    topics: ["APIs", "Microservice communication", "Scaling", "Caching", "Storage", "Big data"],
+    cta: "Read the wiki on Notion",
+  },
+  {
+    id: "medium",
+    name: "Articles",
+    summary: "Longer write-ups on what I learn building backends, data pipelines and infrastructure.",
+    topics: ["System design", "Kubernetes", "AWS", "Apache Spark", "Concurrency", "AI and engineering"],
+    cta: "Read my articles on Medium",
+  },
+].flatMap((w) => {
+  const app = linkApps.find((l) => l.id === w.id);
+  return app ? [{ ...w, url: app.url }] : [];
+});
 
 // After the Banner Health case study: one featured project with a large
 // screenshot, then compact rows. The rest live on GitHub.
@@ -188,6 +212,36 @@ export default function LandingPage() {
               <ul className="skills">
                 {profile.skills.map((s) => (
                   <li key={s}>{s}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Writing ──────────────────────────────────────────── */}
+        <section className="section" id="writing" aria-labelledby="writing-title">
+          <div className="wrap section__grid">
+            <h2 className="section__title" id="writing-title">
+              Writing
+            </h2>
+            <div className="section__body">
+              <p className="section__intro">What I learn building systems, written down so others can use it too.</p>
+              <ul className="writing">
+                {WRITING.map((w) => (
+                  <li key={w.id} className="writing__item">
+                    <h3 className="project__name">{w.name}</h3>
+                    <p className="project__tagline">{w.summary}</p>
+                    <ul className="tech" aria-label={`${w.name} topics`}>
+                      {w.topics.map((t) => (
+                        <li key={t}>{t}</li>
+                      ))}
+                    </ul>
+                    <p className="project__links">
+                      <a href={w.url} target="_blank" rel="noopener">
+                        {w.cta}
+                      </a>
+                    </p>
+                  </li>
                 ))}
               </ul>
             </div>
