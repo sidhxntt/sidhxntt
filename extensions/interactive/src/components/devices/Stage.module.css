@@ -1,0 +1,108 @@
+/* The backdrop both devices sit on (the laptop on desktop, the phone on
+   phones): a blue-black or cool-white stage that follows the landing site's
+   light/dark choice (data-site-theme on <html>), plus the back link. */
+
+.stage {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(70% 55% at 50% 40%, rgb(61 123 255 / 0.18), transparent 70%),
+    radial-gradient(80% 35% at 50% 100%, rgb(61 123 255 / 0.1), transparent 70%),
+    #03050c;
+  color: #e9eefb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+:global(html[data-site-theme="light"]) .stage {
+  background:
+    radial-gradient(70% 55% at 50% 40%, rgb(28 79 230 / 0.12), transparent 70%),
+    radial-gradient(80% 35% at 50% 100%, rgb(28 79 230 / 0.07), transparent 70%),
+    #f4f6fb;
+  color: #060b1f;
+}
+
+.back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.3rem 1rem 0.3rem 0.3rem;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.05);
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.08),
+    0 10px 30px -14px rgb(0 0 0 / 0.7);
+  color: #e9eefb;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+.back:hover {
+  background: rgb(255 255 255 / 0.09);
+  border-color: rgb(122 164 255 / 0.45);
+}
+.back:active {
+  transform: scale(0.97);
+}
+.back:focus-visible {
+  outline: 2px solid #7aa4ff;
+  outline-offset: 3px;
+}
+
+.backIcon {
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #3d7bff;
+  box-shadow: 0 0 16px rgb(61 123 255 / 0.45);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.backIcon svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.back:hover .backIcon {
+  transform: translateX(-3px);
+}
+
+:global(html[data-site-theme="light"]) .back {
+  border-color: #d8deec;
+  background: rgb(255 255 255 / 0.7);
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 10px 30px -16px rgb(6 11 31 / 0.35);
+  color: #060b1f;
+}
+:global(html[data-site-theme="light"]) .back:hover {
+  border-color: #b5c0da;
+  background: #fff;
+}
+:global(html[data-site-theme="light"]) .backIcon {
+  background: #1c4fe6;
+  box-shadow: 0 0 14px rgb(28 79 230 / 0.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back,
+  .backIcon {
+    transition: none;
+  }
+}

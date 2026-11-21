@@ -32,7 +32,7 @@ jobs:
 
       - name: Circular dependency check
         # madge is intentionally not a project dependency; --yes skips the npx install prompt.
-        run: npx --yes madge --circular --extensions ts,tsx src
+        run: npx --yes madge --circular --extensions ts,tsx --ts-config tsconfig.json src extensions/interactive/src
 
       - name: Test
         # Guarded so CI passes before the vitest config/tests land.

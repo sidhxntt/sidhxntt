@@ -20,15 +20,7 @@ export type AppId =
   | "photobooth"
   | "activity"
   | "weather"
-  | "safari"
-  | "game-snake"
-  | "game-pacman"
-  | "game-2048"
-  | "game-mines"
-  | "game-breakout"
-  | "game-dino"
-  | "game-vault"
-  | "game-quest";
+  | "safari";
 
 /** Link-only "apps" — an icon and a URL, no window of their own. */
 export type LinkAppId = "medium" | "notion";
@@ -282,54 +274,6 @@ const ICONS: Record<Exclude<AppId, "myfolder" | "calendar"> | LinkAppId, IconDef
       />
     ),
   },
-  "game-snake": {
-    gradient: ["#34d399", "#059669"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🐍</text>
-    ),
-  },
-  "game-pacman": {
-    gradient: ["#fde047", "#f59e0b"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🟡</text>
-    ),
-  },
-  "game-2048": {
-    gradient: ["#edcf72", "#8f7a66"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🔢</text>
-    ),
-  },
-  "game-mines": {
-    gradient: ["#cbd5e1", "#64748b"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">💣</text>
-    ),
-  },
-  "game-breakout": {
-    gradient: ["#fb923c", "#ea580c"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🧱</text>
-    ),
-  },
-  "game-dino": {
-    gradient: ["#e7e5e4", "#a8a29e"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🦖</text>
-    ),
-  },
-  "game-vault": {
-    gradient: ["#fbbf24", "#b45309"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🔒</text>
-    ),
-  },
-  "game-quest": {
-    gradient: ["#4ade80", "#15803d"],
-    glyph: (
-      <text x="50" y="62" textAnchor="middle" fontSize="44">🗺️</text>
-    ),
-  },
 };
 
 /** macOS-style blue folder — drawn without the squircle background. */
@@ -357,7 +301,7 @@ export function FolderIcon({ size = 48 }: { size?: number | string }) {
 }
 
 /** Classic Finder face — two-tone squircle with the smile. */
-export function FinderIcon({ size = 48 }: { size?: number | string }) {
+function FinderIcon({ size = 48 }: { size?: number | string }) {
   return (
     <svg width={size} height={size} viewBox="0 0 100 100" aria-hidden style={{ display: "block" }}>
       <defs>
@@ -388,7 +332,7 @@ export function FinderIcon({ size = 48 }: { size?: number | string }) {
 }
 
 /** Calendar app icon showing the real current date. */
-export function CalendarLiveIcon({ size = 48 }: { size?: number | string }) {
+function CalendarLiveIcon({ size = 48 }: { size?: number | string }) {
   const [now, setNow] = useState<Date | null>(null);
   useEffect(() => {
     setNow(new Date());

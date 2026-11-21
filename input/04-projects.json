@@ -16,6 +16,16 @@
 
   "items": [
     {
+      "id": "rudder",
+      "name": "Rudder",
+      "tagline": "A self-hosted control plane from Git commit to healthy release",
+      "description": "Rudder is a single-operator deployment control plane with a Railway-style topology canvas and CLI for taking services from GitHub source to immutable, health-gated releases. It combines GitHub OAuth, a GitHub App, signed webhooks, preview environments, rollback, logs and metrics with Docker, Kind and a cost-aware single-cluster GKE reference path. The controlled beta is intentionally honest about its current boundary: production multi-tenancy is planned, not claimed.",
+      "tech": ["Python", "FastAPI", "PostgreSQL", "Next.js", "TypeScript", "Docker", "Kubernetes", "GKE", "Terraform", "Cloud Build", "Artifact Registry", "Traefik", "GitHub Apps"],
+      "link": "",
+      "repo": "https://github.com/sidhxntt/rudder",
+      "images": ["/projects/hots/rudder/01.png", "/projects/hots/rudder/02.png", "/projects/hots/rudder/03.png", "/projects/hots/rudder/04.png", "/projects/hots/rudder/05.png", "/projects/hots/rudder/06.png"]
+    },
+    {
       "id": "praxis",
       "name": "Praxis",
       "tagline": "Develop your SaaS in days not months",
@@ -23,7 +33,7 @@
       "tech": ["Node.js", "Next.js", "Vite.js", "MongoDB", "PostgreSQL", "Prisma", "Redis", "BullMQ", "JWT", "LemonSqueezy", "Prometheus", "Grafana", "Docker"],
       "link": "https://praxis-alpha.vercel.app/",
       "repo": "https://github.com/sidhxntt/Praxis",
-      "images": ["/projects/praxis/01.png"]
+      "images": ["/projects/hots/praxis/01.png"]
     },
     {
       "id": "praxis-pro",

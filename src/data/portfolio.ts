@@ -11,7 +11,7 @@ export const profile = {
   location: "Bengaluru, India",
   bio: [
     "I convert coffee into code",
-    "I'm a backend engineer who treats infrastructure as craft, not vibes. I build SaaS tooling that improves developer experience and productivity tools that help teams move faster without sacrificing reliability. My focus is on APIs with clear ownership, infra you can trust, and debugging that's actually transparent. I believe in shipping fast, learning from feedback, and iterating—on backends built to last.",
+    "I'm a backend engineer who builds data platforms and developer tools. I build SaaS tooling that improves developer experience, and productivity tools that help teams move faster without losing reliability. I care about APIs with clear owners, infrastructure that behaves predictably, and failures that are easy to trace. I ship early, learn from feedback and iterate.",
   ],
   headline: "Beautiful Interfaces, Powerful Backend.",
   tagline: "Currently Building Invytt",
@@ -66,7 +66,7 @@ export const profile = {
       start: "October 2024",
       end: "Present",
       summary:
-        "Architected and delivered an end-to-end HIPAA-compliant data platform on Databricks/AWS for Banner Health — spanning a PySpark-based Medallion pipeline ingesting 10M+ patient records/day from 4 EHR sources (Cerner, Health Catalyst, McKesson, Teradata) via CDC/SCD and real-time Kafka streaming; a metadata-driven YAML ingestion accelerator (T-Ingestor) with LLM-assisted SQLGlot transpilation for Spark SQL migration at scale; a config-driven clinical measure engine computing 100+ rate metrics (ICU/BIPAP LOS, Intubation Rate) across facility/provider/cohort dimensions; and a PyTest automation framework with 100+ pipeline validations wired into GitHub CI/CD across dev/QA/prod — reducing delivery time by 40%, migration risk to zero, test coverage by 60%, and QA turnaround by 35%.",
+        "Built a HIPAA-compliant data platform on Databricks and AWS for Banner Health, cutting delivery time by 40% and QA turnaround by 35%. A PySpark Medallion pipeline ingests 10M+ patient records a day from 4 EHR sources (Cerner, Health Catalyst, McKesson, Teradata) through CDC/SCD and real-time Kafka streaming. T-Ingestor, a metadata-driven YAML ingestion accelerator, uses LLM-assisted SQLGlot transpilation to migrate Spark SQL at scale with zero migration risk. A config-driven clinical measure engine computes 100+ rate metrics (ICU/BIPAP LOS, intubation rate) by facility, provider and cohort. A PyTest framework runs 100+ pipeline validations in GitHub CI/CD across dev, QA and prod, raising test coverage by 60%.",
     },
     {
       role: "Data Analyst Intern, Supply Chain Program",
@@ -134,6 +134,37 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "rudder",
+    name: "Rudder",
+    tagline: "A self-hosted control plane from Git commit to healthy release",
+    description:
+      "Rudder is a single-operator deployment control plane with a Railway-style topology canvas and CLI for taking services from GitHub source to immutable, health-gated releases. It combines GitHub OAuth, a GitHub App, signed webhooks, preview environments, rollback, logs and metrics with Docker, Kind and a cost-aware single-cluster GKE reference path. The controlled beta is intentionally honest about its current boundary: production multi-tenancy is planned, not claimed.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Next.js",
+      "TypeScript",
+      "Docker",
+      "Kubernetes",
+      "GKE",
+      "Terraform",
+      "Cloud Build",
+      "Artifact Registry",
+      "Traefik",
+      "GitHub Apps",
+    ],
+    repo: "https://github.com/sidhxntt/rudder",
+    images: [
+      "/projects/hots/rudder/01.png",
+      "/projects/hots/rudder/02.png",
+      "/projects/hots/rudder/03.png",
+      "/projects/hots/rudder/04.png",
+      "/projects/hots/rudder/05.png",
+      "/projects/hots/rudder/06.png",
+    ],
+  },
+  {
     id: "praxis",
     name: "Praxis",
     tagline: "Develop your SaaS in days not months",
@@ -156,7 +187,7 @@ export const projects: Project[] = [
     ],
     link: "https://praxis-alpha.vercel.app/",
     repo: "https://github.com/sidhxntt/Praxis",
-    images: ["/projects/praxis/01.png"],
+    images: ["/projects/hots/praxis/01.png"],
   },
   {
     id: "praxis-pro",
@@ -368,20 +399,4 @@ export const pictures: Picture[] = [
   { id: "v17", src: "/library/club-lights.mp4", caption: "Club lights in pink", kind: "video", poster: "/library/posters/club-lights.jpg" },
   { id: "v18", src: "/library/club-night.mp4", caption: "Late night on the dance floor", kind: "video", poster: "/library/posters/club-night.jpg" },
   { id: "v19", src: "/library/night-crowd.mp4", caption: "Night crowd under lanterns", kind: "video", poster: "/library/posters/night-crowd.jpg" },
-];
-
-export type Track = {
-  id: string;
-  title: string;
-  artist: string;
-  duration: number; // seconds
-  accent: string;
-};
-
-// Placeholder playlist — the player UI plays synthesized tones per track.
-export const tracks: Track[] = [
-  { id: "t1", title: "Boot Sequence", artist: "Kernel Panic", duration: 184, accent: "from-sky-400 to-indigo-600" },
-  { id: "t2", title: "Segfault Serenade", artist: "Null Pointer", duration: 213, accent: "from-rose-400 to-red-600" },
-  { id: "t3", title: "Garbage Collector", artist: "The Heaps", duration: 197, accent: "from-emerald-400 to-green-600" },
-  { id: "t4", title: "Async Awake", artist: "Promise.all", duration: 240, accent: "from-amber-400 to-orange-600" },
 ];

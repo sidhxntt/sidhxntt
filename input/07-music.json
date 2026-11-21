@@ -1,8 +1,8 @@
 {
   "_topic": "Music — your 'My Songs' list",
   "_file": "src/components/apps/Music.tsx",
-  "_help": "Optional, and already filled with real taste. Written as search queries in 'song artist' form — resolved live against Spotify, so they don't need to be exact.",
-  "_requires": "Needs the keys in 09-spotify-keys.json to resolve.",
+  "_help": "Optional, and already filled with real taste. Written as search queries in 'song artist' form — resolved live against the iTunes catalogue, so they don't need to be exact.",
+  "_requires": "Nothing — no API keys needed.",
 
   "queries": [
     "9 Drake",

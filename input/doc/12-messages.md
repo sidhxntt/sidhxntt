@@ -19,9 +19,9 @@ claude-haiku-4-5-20251001
 Same context block Siri's route builds, minus the action schema. He can talk about all of it and *point* visitors at it, first person ("that's in my Projects app"):
 
 - **The person:** name, role, email, location, bio, full skill list, experience, stats — from `profile`.
-- **Every app on the OS:** About Me (Apple Notes clone + its notes), Projects, Photos (with captions), Resume, Contact, Music (Spotify search + iTunes previews), Finder/Files, Calendar, Settings, Terminal, Messages (this thread), Code (this site's real source), Photo Booth, Activity Monitor, Weather, Safari, plus every game — Snake, Pac-Man, 2048, Minesweeper, Breakout, Dino Run, Tiny Quest.
+- **Every app on the OS:** About Me (Apple Notes clone + its notes), Projects, Photos (with captions), Resume, Contact, Music (song search, Top Charts and 30-second previews), Finder/Files, Calendar, Settings, Terminal, Messages (this thread), Code (this site's real source), Photo Booth, Activity Monitor, Weather, Safari.
 - **The projects:** ids, names, taglines, tech stacks — from `projects`.
-- **Desktop files & Finder locations:** about-me.txt, resume.pdf, contact.mail; Projects, Pictures, Games folders; Bin.
+- **Desktop files & Finder locations:** about-me.txt, resume.pdf, contact.mail; Projects and Pictures folders; Bin.
 - **System stuff:** wallpapers, accents, light/dark theme, volume/brightness — knows they exist, can't touch them.
 - **How the site is built:** Next.js 16, React 19, TypeScript, Tailwind v4, framer-motion; Web-Audio-synthesized sounds; code browsable in the Code app.
 

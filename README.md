@@ -13,11 +13,12 @@
 
 <br>
 
-<a href="https://sidhxntt.dev">
+<a href="https://sidhxntt.dev/interactive">
   <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8E%20%20Power%20on%20my%20Portfolio%20OS-000000?style=for-the-badge&logo=apple&logoColor=white" height="40" alt="portfolio" />
 </a>
 
-*A full macOS you can boot in your browser — apps, games, an AI Siri. Don't just read about me, log in.*
+*A full macOS you can boot in your browser — apps and an AI Siri. Don't just read about me, log in.*
+Prefer a regular website? It's at [sidhxntt.dev](https://sidhxntt.dev).
 
 <a href="https://sidhxntt.dev/resume.pdf"><img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" height="30" alt="resume" /></a>
 <a href="https://cal.com/sidhxntt"><img src="https://img.shields.io/badge/Book%20a%20call-111111?style=for-the-badge&logo=caldotcom&logoColor=white" height="30" alt="book a call" /></a>

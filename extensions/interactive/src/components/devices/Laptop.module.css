@@ -1,0 +1,381 @@
+/* A space-grey aluminium laptop in CSS 3D. The stage around it (background,
+   theme, back link) is shared with the phone: see Stage.module.css.
+
+   Coordinates: the lid is a W×H box whose bottom edge is the hinge. The deck
+   lies flat in front of it (H deep, toward the viewer) and the lid closes by
+   folding down onto the deck. Camera (perspective, origin) and sizes come in
+   as custom properties from Laptop.tsx, which also does the fit maths. */
+
+/* ── the laptop and its camera move ───────────────────────────────────── */
+
+.laptop {
+  --corner: calc(var(--w) * 0.012);
+  --alu-hi: #6d7381;
+  --alu: #4d525e;
+  --alu-lo: #353943;
+  --alu-edge: #858b99;
+  position: relative;
+  width: var(--w);
+  height: var(--h);
+  transform-style: preserve-3d;
+  /* closed: seen from above and a little further away */
+  transform: translateY(calc(var(--h) * -0.62)) rotateX(-40deg) scale(0.58);
+  transition: transform 2.2s cubic-bezier(0.3, 0.05, 0.15, 1);
+}
+/* open: square to the viewer and lifted so lid + deck sit centred. Only a 2D
+   translate remains above the screen, which keeps pointer mapping exact. */
+[data-phase="opening"] .laptop,
+[data-phase="open"] .laptop {
+  transform: translateY(var(--lift));
+}
+
+/* ── lid ──────────────────────────────────────────────────────────────── */
+
+.lid {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transform-origin: 50% 100%;
+  transform: rotateX(-90deg); /* folded flat onto the deck */
+  transition: transform 2s cubic-bezier(0.35, 0.05, 0.12, 1) 0.1s;
+}
+[data-phase="opening"] .lid {
+  transform: rotateX(0deg);
+}
+/* settled: no 3D left above the screen, so clicks map 1:1 into the OS */
+[data-phase="open"] .lid {
+  transform: none;
+  transform-style: flat;
+  transition: none;
+}
+[data-phase="open"] .lidBack,
+[data-phase="open"] .lidEdge {
+  display: none;
+}
+
+.lidFront,
+.lidBack {
+  position: absolute;
+  inset: 0;
+  border-radius: calc(var(--w) * 0.02) calc(var(--w) * 0.02) calc(var(--w) * 0.007) calc(var(--w) * 0.007);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.lidFront {
+  /* glossy black glass over the bezel */
+  background:
+    linear-gradient(180deg, rgb(255 255 255 / 0.05), transparent 12%),
+    #050506;
+  /* the machined aluminium rim around the glass */
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.08),
+    0 0 0 calc(var(--w) * 0.0022) var(--alu-lo),
+    0 0 0 calc(var(--w) * 0.003) var(--alu-edge),
+    0 50px 90px -40px rgb(0 0 0 / 0.9);
+}
+
+/* the lid's thickness along its top edge (faces up when open, toward you when closed) */
+.lidEdge {
+  position: absolute;
+  top: 0;
+  left: calc(var(--w) * 0.006);
+  right: calc(var(--w) * 0.006);
+  height: calc(var(--w) * 0.007);
+  transform-origin: 50% 0;
+  transform: rotateX(-90deg);
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--alu-lo), var(--alu-edge) 30%, var(--alu-hi) 50%, var(--alu-edge) 70%, var(--alu-lo));
+}
+
+.lidBack {
+  transform: translateZ(calc(var(--w) * -0.007)) rotateY(180deg);
+  display: grid;
+  place-items: center;
+  /* anodised aluminium: a broad highlight, a soft falloff and a fine brush */
+  background:
+    radial-gradient(80% 100% at 25% 10%, rgb(255 255 255 / 0.16), transparent 60%),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.012) 0 1px, transparent 1px 3px),
+    linear-gradient(165deg, var(--alu-hi), var(--alu) 45%, var(--alu-lo));
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.12),
+    inset 0 0 calc(var(--w) * 0.02) rgb(0 0 0 / 0.25);
+}
+
+/* the owner's monogram, lit from behind like a glowing badge */
+.badge {
+  rotate: 180deg; /* upright from where the visitor stands when the lid is shut */
+  font-family: "Instrument Serif", Georgia, serif;
+  font-size: calc(var(--w) * 0.075);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgb(255 255 255 / 0.92);
+  text-shadow:
+    0 0 calc(var(--w) * 0.006) rgb(255 255 255 / 0.7),
+    0 0 calc(var(--w) * 0.03) rgb(122 164 255 / 0.65);
+}
+
+.camera {
+  position: absolute;
+  top: calc(var(--w) * 0.0115);
+  left: 50%;
+  width: calc(var(--w) * 0.0045);
+  height: calc(var(--w) * 0.0045);
+  min-width: 4px;
+  min-height: 4px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(circle at 35% 35%, #34497a, #0a0d16 60%, #020203);
+  box-shadow: 0 0 0 calc(var(--w) * 0.0012) #111216;
+}
+
+.screen {
+  position: absolute;
+  overflow: hidden;
+  border-radius: calc(var(--w) * 0.007) calc(var(--w) * 0.007) 3px 3px;
+  background: #000;
+  /* clip the iframe to the rounded corners in every browser */
+  clip-path: inset(0 round calc(var(--w) * 0.007) calc(var(--w) * 0.007) 3px 3px);
+}
+
+.display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  /* the screen powers on as the lid finishes opening */
+  opacity: 0;
+  transition: opacity 0.9s ease 1.5s;
+}
+[data-phase="opening"] .display,
+[data-phase="open"] .display {
+  opacity: 1;
+}
+
+.frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #000;
+}
+
+/* a faint reflection across the glass; never blocks the pointer */
+.glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, rgb(255 255 255 / 0.055) 0%, rgb(255 255 255 / 0.015) 32%, transparent 52%);
+}
+
+/* the hinge barrel, just below the glass */
+.hinge {
+  position: absolute;
+  left: 9%;
+  right: 9%;
+  bottom: 0;
+  height: calc(var(--w) * 0.011);
+  transform: translateY(70%);
+  border-radius: 0 0 calc(var(--w) * 0.006) calc(var(--w) * 0.006);
+  background: linear-gradient(180deg, #0c0d10, #24262d 55%, #121318);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08);
+}
+
+/* ── base ─────────────────────────────────────────────────────────────── */
+
+.deck {
+  position: absolute;
+  top: 100%;
+  left: calc((1 - var(--widen)) * 50%);
+  width: calc(var(--widen) * 100%);
+  height: var(--h);
+  transform-origin: 50% 0;
+  transform: rotateX(90deg);
+  /* square front corners: seen this flat, any rounding here would project
+     wider than the lip below. The lip carries the rounding instead. */
+  border-radius: calc(var(--w) * 0.008) calc(var(--w) * 0.008) 2px 2px;
+  background:
+    radial-gradient(90% 70% at 50% 0%, rgb(255 255 255 / 0.1), transparent 70%),
+    repeating-linear-gradient(90deg, rgb(255 255 255 / 0.01) 0 1px, transparent 1px 3px),
+    linear-gradient(180deg, var(--alu-hi) 0%, var(--alu) 55%, var(--alu-lo) 100%);
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.12),
+    inset 0 calc(var(--w) * 0.004) 0 rgb(0 0 0 / 0.25);
+}
+
+/* keyboard well: keys sit in a slightly recessed tray */
+.keyboard {
+  position: absolute;
+  top: 5.5%;
+  left: 11.5%;
+  right: 11.5%;
+  height: 44%;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--w) * 0.0042);
+  padding: calc(var(--w) * 0.004);
+  border-radius: calc(var(--w) * 0.006);
+  background: rgb(0 0 0 / 0.28);
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.25);
+}
+
+.keyRow {
+  display: flex;
+  flex: 1 1 0;
+  gap: calc(var(--w) * 0.0042);
+  min-height: 0;
+}
+.keyRowShort {
+  flex-grow: 0.62;
+}
+
+.key {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(var(--w) * 0.0032);
+  background: linear-gradient(180deg, #1a1b20, #0d0e11);
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.1),
+    0 1px 0 rgb(0 0 0 / 0.6);
+  color: rgb(236 240 248 / 0.88);
+  font-size: calc(var(--w) * 0.0098);
+  line-height: 1.05;
+  white-space: nowrap;
+  overflow: hidden;
+  user-select: none;
+}
+.keyLabel {
+  display: block;
+}
+.keySub {
+  display: block;
+  font-size: 0.85em;
+}
+/* modifier legends sit in a bottom corner */
+.keyLeft,
+.keyRight {
+  justify-content: flex-end;
+  padding: 0 calc(var(--w) * 0.003) calc(var(--w) * 0.0022);
+  font-size: calc(var(--w) * 0.0072);
+}
+.keyLeft {
+  align-items: flex-start;
+}
+.keyRight {
+  align-items: flex-end;
+}
+.keyRowShort .key {
+  font-size: calc(var(--w) * 0.0068);
+}
+
+.keyPower {
+  background: linear-gradient(180deg, #16171b, #0b0c0e);
+}
+.touchId {
+  width: 62%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 1px solid rgb(255 255 255 / 0.1);
+}
+
+/* inverted-T arrows: up and down share one key slot */
+.arrowStack {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--w) * 0.0016);
+}
+.keyHalf {
+  flex: 1 1 0;
+  font-size: calc(var(--w) * 0.006);
+}
+
+/* speaker grilles either side of the keyboard */
+.speaker {
+  position: absolute;
+  top: 5.5%;
+  height: 44%;
+  width: 7%;
+  border-radius: calc(var(--w) * 0.004);
+  background-image: radial-gradient(circle, rgb(0 0 0 / 0.65) 0 38%, transparent 44%);
+  background-size: calc(var(--w) * 0.0058) calc(var(--w) * 0.0058);
+}
+.speakerLeft {
+  left: 3%;
+}
+.speakerRight {
+  right: 3%;
+}
+
+/* glass trackpad */
+.trackpad {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 40%;
+  height: 39%;
+  transform: translateX(-50%);
+  border-radius: calc(var(--w) * 0.009);
+  background:
+    radial-gradient(80% 80% at 50% 0%, rgb(255 255 255 / 0.07), transparent 70%),
+    linear-gradient(180deg, #474c58, #3c414c);
+  box-shadow:
+    inset 0 0 0 1px rgb(255 255 255 / 0.1),
+    0 0 0 1px rgb(0 0 0 / 0.2);
+}
+
+/* the front edge of the base, facing the viewer */
+.lip {
+  position: absolute;
+  top: 100%;
+  /* exactly as wide as the deck's front edge, rounding away underneath */
+  left: calc((1 - var(--widen)) * 50%);
+  width: calc(var(--widen) * 100%);
+  height: var(--lip);
+  transform-origin: 50% 0;
+  transform: translateZ(var(--h));
+  border-radius: 0 0 var(--corner) var(--corner) / 0 0 calc(var(--lip) * 0.9) calc(var(--lip) * 0.9);
+  background: linear-gradient(180deg, var(--alu-edge) 0%, var(--alu) 30%, #2a2d35 100%);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.25);
+}
+/* the finger groove for opening the lid */
+.lip::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 13%;
+  height: 48%;
+  transform: translateX(-50%);
+  border-radius: 0 0 calc(var(--w) * 0.012) calc(var(--w) * 0.012);
+  background: linear-gradient(180deg, #23262d, #3a3e48);
+}
+
+.shadow {
+  position: absolute;
+  top: calc(100% + var(--lip));
+  left: -10%;
+  width: 120%;
+  height: calc(var(--w) * 0.05);
+  transform: translateZ(var(--h));
+  background: radial-gradient(50% 50% at 50% 25%, rgb(0 0 0 / 0.85), transparent 75%);
+  filter: blur(12px);
+  pointer-events: none;
+}
+:global(html[data-site-theme="light"]) .shadow {
+  background: radial-gradient(50% 50% at 50% 25%, rgb(6 11 31 / 0.38), transparent 75%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .laptop,
+  .lid,
+  .display {
+    transition: none;
+  }
+}

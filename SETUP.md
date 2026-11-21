@@ -107,7 +107,8 @@ is stable but the stored token can expire.
 
 Note on the existing keys: `input/09-spotify-keys.json` holds
 `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` placeholders for the portfolio
-site's Music app, which uses the *client-credentials* flow. Those are unrelated
+site's Music app, which uses them only as an optional search fallback (the
+*client-credentials* flow; iTunes is the primary source and needs no keys). Those are unrelated
 to this — the hosted service does its own user OAuth and needs nothing from you
 beyond the authorize click.
 

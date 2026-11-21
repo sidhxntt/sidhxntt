@@ -30,7 +30,7 @@ The line shown before the first question:
 
 The tappable chips under the Siri orb. 4–6 works best — each should show off a different *agent* trick (open an app, play a song, change a setting, ask about Siddhant):
 
-- Open Snake
+- Open Terminal
 - Play Blinding Lights
 - Is it raining?
 - Make it dark in here

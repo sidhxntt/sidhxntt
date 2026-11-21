@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/build-game.mjs --if-missing",
     "dev": "next dev",
+    "prebuild": "node scripts/build-game.mjs",
     "build": "next build",
     "start": "next start",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "build:game": "node scripts/build-game.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource/instrument-serif": "^5.3.0",
     "framer-motion": "^12.42.2",
     "next": "16.2.10",
     "react": "19.2.4",

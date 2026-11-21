@@ -9,16 +9,24 @@ export default defineConfig({
     },
     globals: true,
     setupFiles: ["./vitest.setup.ts"],
-    include: ["src/**/*.test.{ts,tsx}"],
+    include: ["src/**/*.test.{ts,tsx}", "extensions/interactive/src/**/*.test.{ts,tsx}"],
     coverage: {
       provider: "v8",
-      include: ["src/lib/**/*.ts", "src/components/apps/app-meta.ts", "src/app/api/proxy/**"],
-      exclude: ["src/lib/spotify-server.ts", "src/lib/useIsMobile.ts"],
+      include: [
+        "extensions/interactive/src/lib/**/*.ts",
+        "extensions/interactive/src/components/apps/app-meta.ts",
+        "extensions/interactive/src/api/proxy/**",
+      ],
+      exclude: [
+        "extensions/interactive/src/lib/spotify-server.ts",
+        "extensions/interactive/src/lib/useIsMobile.ts",
+      ],
     },
   },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@os": fileURLToPath(new URL("./extensions/interactive/src", import.meta.url)),
     },
   },
 });

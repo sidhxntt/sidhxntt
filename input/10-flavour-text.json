@@ -11,8 +11,7 @@
     "src/components/apps/About.tsx": "the 'Hello there 👋' welcome note",
     "src/components/apps/Safari.tsx": "start page subtitle, fake Privacy Report",
     "src/components/apps/SettingsApp.tsx": "fake machine specs and the serial number 'H1REME-<year>'",
-    "src/data/code-samples.ts": "the fake source files shown in the Code app",
-    "src/components/apps/Games.tsx": "arcade blurbs"
+    "src/data/code-samples.ts": "the fake source files shown in the Code app"
   },
 
   "_already_handled": {
