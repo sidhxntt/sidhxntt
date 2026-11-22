@@ -5,7 +5,7 @@ import "@fontsource-variable/inter-tight/wght.css";
 import "@/styles/notebook.css";
 import { baseMetadata, socialCards } from "@/lib/site-metadata";
 import { Providers } from "../components/Providers";
-import { DESCRIPTION, TITLE } from "../lib/meta";
+import { DESCRIPTION, IMAGE, TITLE } from "../lib/meta";
 import "./newsletter.css";
 
 // Root layout for the newsletter at /newsletter: the site's notebook look
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   title: { default: TITLE, template: `%s — ${TITLE}` },
   description: DESCRIPTION,
   alternates: { canonical: "/newsletter" },
-  ...socialCards(TITLE, DESCRIPTION, "/newsletter"),
+  ...socialCards(TITLE, DESCRIPTION, "/newsletter", IMAGE),
 };
 
 export default function NewsletterLayout({ children }: Readonly<{ children: React.ReactNode }>) {

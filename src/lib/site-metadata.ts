@@ -8,7 +8,15 @@ import { linkApps, profile } from "@/data/portfolio";
 const SITE_URL = "https://sidhxntt.dev";
 
 export const SITE_DESCRIPTION =
-  "Siddhant Gupta is a backend engineer in Bengaluru building SaaS and developer tooling with Python, Go, TypeScript and Next.js. Read about his work and his newsletter.";
+  "Siddhant (Sid) Gupta, a backend engineer in Bengaluru. I build data platforms and dev tools that are easy to trace, and write about how software gets built.";
+
+/** A 1200×630 link-preview card in the notebook look, from public/og. */
+export type SocialImage = { url: string; alt: string };
+
+export const SITE_IMAGE: SocialImage = {
+  url: "/og/site.jpg",
+  alt: "SID in pixel letters on lined notebook paper: I build data platforms and dev tools that are easy to trace.",
+};
 
 export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -39,16 +47,21 @@ export const baseMetadata: Metadata = {
 };
 
 /** Open Graph + Twitter cards for a page with the given title and description. */
-export function socialCards(title: string, description: string, path: string): Pick<Metadata, "openGraph" | "twitter"> {
+export function socialCards(
+  title: string,
+  description: string,
+  path: string,
+  image: SocialImage = SITE_IMAGE,
+): Pick<Metadata, "openGraph" | "twitter"> {
   return {
     openGraph: {
       type: "website",
       url: path,
-      siteName: `${profile.name} — Portfolio`,
+      siteName: "sidhxntt.dev",
       locale: "en_US",
       title,
       description,
-      images: [{ url: "/og.jpg", width: 1200, height: 630, alt: `${profile.name} — ${profile.role}` }],
+      images: [{ ...image, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
@@ -56,7 +69,7 @@ export function socialCards(title: string, description: string, path: string): P
       creator: "@sidhxntt",
       title,
       description,
-      images: ["/og.jpg"],
+      images: [image],
     },
   };
 }
