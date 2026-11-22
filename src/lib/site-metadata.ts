@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { linkApps, profile } from "@/data/portfolio";
 
-// Metadata shared by both root layouts: the landing site at / and the
-// Interactive OS at /interactive. Each layout spreads this and overrides
-// the title, description and canonical URL for its own section.
+// Metadata shared by both root layouts: the site at / and the newsletter at
+// /newsletter. Each layout spreads this and overrides the title, description
+// and canonical URL for its own section.
 
 const SITE_URL = "https://sidhxntt.dev";
 
 export const SITE_DESCRIPTION =
-  "Siddhant Gupta is a backend engineer in Bengaluru building SaaS and developer tooling with Python, Go, TypeScript and Next.js. Read about his work, or explore it as a macOS-style Interactive OS or a 3D game.";
+  "Siddhant Gupta is a backend engineer in Bengaluru building SaaS and developer tooling with Python, Go, TypeScript and Next.js. Read about his work and his newsletter.";
 
 export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -17,7 +17,6 @@ export const baseMetadata: Metadata = {
     "software engineer",
     "backend engineer",
     "portfolio",
-    "interactive portfolio",
     "developer tooling",
     ...profile.skills,
     "Bengaluru",

@@ -1,23 +1,15 @@
 // ── Single source of truth for all portfolio content ──
 // Sourced from the fill-in sheets in /input.
 
-import type { LinkAppId } from "@/components/AppIcon";
-
 export const profile = {
   name: "Siddhant Gupta",
   role: "Software Engineer",
   avatar: "/avatar.jpg",
-  avatarInitials: "SG", // fallback when the avatar image fails to load
-  location: "Bengaluru, India",
   bio: [
     "I convert coffee into code",
     "I'm a backend engineer who builds data platforms and developer tools. I build SaaS tooling that improves developer experience, and productivity tools that help teams move faster without losing reliability. I care about APIs with clear owners, infrastructure that behaves predictably, and failures that are easy to trace. I ship early, learn from feedback and iterate.",
   ],
-  headline: "Beautiful Interfaces, Powerful Backend.",
   tagline: "Currently Building Invytt",
-  quote:
-    "Good software is cultivated, not assembled — each layer of abstraction should feel as natural as the one beneath it.",
-  // the first five are what the Messages bot calls the "daily drivers"
   skills: [
     "Python",
     "Golang",
@@ -49,14 +41,6 @@ export const profile = {
     "SQL",
     "Bash",
     "Git",
-  ],
-  stats: [
-    { value: "2+", label: "Years of Experience" },
-    { value: "20+", label: "Products Shipped" },
-    { value: "12M+", label: "Active Users" },
-    { value: "1PB+", label: "Data Processed" },
-    { value: "5+", label: "Data Pipelines Built" },
-    { value: "99.9%", label: "System Uptime" },
   ],
   experience: [
     {
@@ -97,7 +81,6 @@ export const profile = {
   ],
   email: "siddhantg2002@gmail.com",
   resumeUrl: "/resume.pdf",
-  resumeDriveUrl: "https://drive.google.com/file/d/1mGxRMS4c7ARRBDIcH-l_tqBo4_tHWChA/view?usp=sharing",
   socials: [
     { label: "GitHub", url: "https://github.com/sidhxntt" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/sidhxntt" },
@@ -105,13 +88,12 @@ export const profile = {
     { label: "ProductHunt", url: "https://www.producthunt.com/@sidhxntt" },
     { label: "Peerlist", url: "https://peerlist.io/sidhxntt" },
     { label: "Substack", url: "https://substack.com/@sidhxntt" },
-    { label: "Buymeacoffee", url: "https://buymeacoffee.com/sidhxntt" },
+    { label: "Buy Me a Coffee", url: "https://buymeacoffee.com/sidhxntt" },
     { label: "Book a call", url: "https://cal.com/sidhxntt" },
   ],
 };
 
-// Link-only "apps": an icon in Applications and on the desktop that opens a
-// real browser tab. No window, so they stay out of APP_META / the registry.
+// Writing elsewhere, linked from the landing page.
 export const linkApps = [
   { id: "medium", name: "Medium", url: "https://medium.com/@sidhxntt" },
   {
@@ -119,7 +101,7 @@ export const linkApps = [
     name: "Notion",
     url: "https://sidhxntt.notion.site/32f479a1085e80b09884dcbc2c2ad6d1?v=333479a1085e8069b431000c2e9c9bbe",
   },
-] as const satisfies readonly { id: LinkAppId; name: string; url: string }[];
+] as const;
 
 export type Project = {
   id: string;
@@ -330,73 +312,4 @@ export const projects: Project[] = [
     repo: "https://github.com/sidhxntt/media_automations",
     images: ["/projects/media-automations/01.png"],
   },
-];
-
-export type Picture = {
-  id: string;
-  src: string; // file in /public/library
-  caption: string; // doubles as alt text
-  kind: "photo" | "video";
-  poster?: string; // videos only — first frame, so grids lazy-load a still
-};
-
-// Real media from /public/library. Captions double as alt text.
-export const pictures: Picture[] = [
-  { id: "p1", src: "/library/alpenglow.jpg", caption: "Alpenglow on a Himalayan peak", kind: "photo" },
-  { id: "p2", src: "/library/himalayan-range.jpg", caption: "Himalayan range panorama", kind: "photo" },
-  { id: "p3", src: "/library/snowy-peaks.jpg", caption: "Snowy peaks and prayer flags", kind: "photo" },
-  { id: "p4", src: "/library/sunlit-peak.jpg", caption: "Sunlit peak framed by dark rock", kind: "photo" },
-  { id: "p5", src: "/library/sunlit-peak-2.jpg", caption: "Last light on the peak", kind: "photo" },
-  { id: "p6", src: "/library/dusk-ridge.jpg", caption: "On the ridge at dusk, snow peaks behind", kind: "photo" },
-  { id: "p7", src: "/library/ridge-panorama.jpg", caption: "Hazy ridge panorama", kind: "photo" },
-  { id: "p8", src: "/library/mountain-layers.jpg", caption: "Mountain layers fading into haze", kind: "photo" },
-  { id: "p9", src: "/library/frozen-waterfall.jpg", caption: "Frozen waterfall on the trail", kind: "photo" },
-  { id: "p10", src: "/library/misty-slope.jpg", caption: "Mist rolling over a snow slope", kind: "photo" },
-  { id: "p11", src: "/library/sunset-clouds.jpg", caption: "Sunset clouds over dark mountains", kind: "photo" },
-  { id: "p12", src: "/library/orange-sunset.jpg", caption: "Orange sunset over the horizon", kind: "photo" },
-  { id: "p13", src: "/library/valley-clouds.jpg", caption: "Clouds drifting over the valley", kind: "photo" },
-  { id: "p14", src: "/library/green-valley.jpg", caption: "Green valley from the porch", kind: "photo" },
-  { id: "p15", src: "/library/hill-village.jpg", caption: "Hill village under low clouds", kind: "photo" },
-  { id: "p16", src: "/library/cliff-sky.jpg", caption: "Cliff face against a bright sky", kind: "photo" },
-  { id: "p17", src: "/library/forest-light.jpg", caption: "Evening light through the forest", kind: "photo" },
-  { id: "p18", src: "/library/window-view.jpg", caption: "Mountains from the cafe window", kind: "photo" },
-  { id: "p19", src: "/library/palm-beach.jpg", caption: "Palm-lined beach", kind: "photo" },
-  { id: "p20", src: "/library/shore-boats.jpg", caption: "Boats pulled up on the shore", kind: "photo" },
-  { id: "p21", src: "/library/palm-cafe.jpg", caption: "Rooftop cafe under the palms", kind: "photo" },
-  { id: "p22", src: "/library/palm-cafe-2.jpg", caption: "Palms over the rooftop cafe", kind: "photo" },
-  { id: "p23", src: "/library/heritage-house.jpg", caption: "Heritage house with a star lantern", kind: "photo" },
-  { id: "p24", src: "/library/white-mansion.jpg", caption: "White mansion behind the old tree", kind: "photo" },
-  { id: "p25", src: "/library/temple-street.jpg", caption: "Temple street scene", kind: "photo" },
-  { id: "p26", src: "/library/pondicherry-mural.jpg", caption: "Pondicherry check-in mural", kind: "photo" },
-  { id: "p27", src: "/library/route66-mural.jpg", caption: "Route 66 mural", kind: "photo" },
-  { id: "p28", src: "/library/retro-diner.jpg", caption: "Retro diner wall art", kind: "photo" },
-  { id: "p29", src: "/library/rooftop-dino.jpg", caption: "Rooftop dinosaur on the street", kind: "photo" },
-  { id: "p30", src: "/library/cafe-sign.jpg", caption: "Caffeine Craft — cafe lantern sign", kind: "photo" },
-  { id: "p31", src: "/library/cafe-burger.jpg", caption: "Burger stop at a roadside cafe", kind: "photo" },
-  { id: "p32", src: "/library/brunch.jpg", caption: "Sunday brunch spread", kind: "photo" },
-  { id: "p33", src: "/library/neon-alley.jpg", caption: "Pink neon alley", kind: "photo" },
-  { id: "p34", src: "/library/neon-lights.jpg", caption: "Neon light trails", kind: "photo" },
-  { id: "p35", src: "/library/arcade-neon.jpg", caption: "Neon-lit arcade at night", kind: "photo" },
-  { id: "p36", src: "/library/bar-neon.jpg", caption: "Neon bar wall art", kind: "photo" },
-  { id: "p37", src: "/library/wall-portraits.jpg", caption: "Portrait wall in low light", kind: "photo" },
-  { id: "p38", src: "/library/night-bikes.jpg", caption: "Motorcycles parked for the night", kind: "photo" },
-  { id: "v1", src: "/library/sunlit-forest.mp4", caption: "Sun rays through the forest", kind: "video", poster: "/library/posters/sunlit-forest.jpg" },
-  { id: "v2", src: "/library/autumn-trail.mp4", caption: "Walking an autumn leaf trail", kind: "video", poster: "/library/posters/autumn-trail.jpg" },
-  { id: "v3", src: "/library/forest-trail.mp4", caption: "Steps through the forest trail", kind: "video", poster: "/library/posters/forest-trail.jpg" },
-  { id: "v4", src: "/library/valley-view.mp4", caption: "Valley view from the mountain road", kind: "video", poster: "/library/posters/valley-view.jpg" },
-  { id: "v5", src: "/library/frozen-lake-dog.mp4", caption: "Dog on a frozen lake", kind: "video", poster: "/library/posters/frozen-lake-dog.jpg" },
-  { id: "v6", src: "/library/ice-sheets.mp4", caption: "Ice sheets up close", kind: "video", poster: "/library/posters/ice-sheets.jpg" },
-  { id: "v7", src: "/library/boat-ride.mp4", caption: "Boat ride on calm water", kind: "video", poster: "/library/posters/boat-ride.jpg" },
-  { id: "v8", src: "/library/garden-piano.mp4", caption: "Piano tucked into a garden", kind: "video", poster: "/library/posters/garden-piano.jpg" },
-  { id: "v9", src: "/library/sleepy-cats.mp4", caption: "Two cats sharing a chair", kind: "video", poster: "/library/posters/sleepy-cats.jpg" },
-  { id: "v10", src: "/library/fluffy-cat.mp4", caption: "Fluffy cat lounging on a chair", kind: "video", poster: "/library/posters/fluffy-cat.jpg" },
-  { id: "v11", src: "/library/door-cat.mp4", caption: "Cat climbing the door", kind: "video", poster: "/library/posters/door-cat.jpg" },
-  { id: "v12", src: "/library/puppy.mp4", caption: "Puppy in hand", kind: "video", poster: "/library/posters/puppy.jpg" },
-  { id: "v13", src: "/library/black-dog.mp4", caption: "Mountain dog taking a break", kind: "video", poster: "/library/posters/black-dog.jpg" },
-  { id: "v14", src: "/library/concert.mp4", caption: "Concert crowd in red light", kind: "video", poster: "/library/posters/concert.jpg" },
-  { id: "v15", src: "/library/dj-set.mp4", caption: "DJ set under the spotlight", kind: "video", poster: "/library/posters/dj-set.jpg" },
-  { id: "v16", src: "/library/neon-bar.mp4", caption: "Neon bar walk-through", kind: "video", poster: "/library/posters/neon-bar.jpg" },
-  { id: "v17", src: "/library/club-lights.mp4", caption: "Club lights in pink", kind: "video", poster: "/library/posters/club-lights.jpg" },
-  { id: "v18", src: "/library/club-night.mp4", caption: "Late night on the dance floor", kind: "video", poster: "/library/posters/club-night.jpg" },
-  { id: "v19", src: "/library/night-crowd.mp4", caption: "Night crowd under lanterns", kind: "video", poster: "/library/posters/night-crowd.jpg" },
 ];

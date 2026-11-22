@@ -44,8 +44,5 @@ next-env.d.ts
 .claude/
 CLAUDE.local.md
 
-# Game OS build output (scripts/build-game.mjs)
-/public/game/
-
 # isolated feature worktrees
 .worktrees/

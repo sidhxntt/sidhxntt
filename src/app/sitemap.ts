@@ -11,8 +11,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const posts = await load(api.posts.published, {});
   return [
     { url: SITE, lastModified, changeFrequency: "monthly", priority: 1 },
-    { url: `${SITE}/interactive`, lastModified, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE}/game`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE}/newsletter`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     ...(posts.ok
       ? posts.data.map((p) => ({

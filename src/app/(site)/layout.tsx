@@ -1,21 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import "@fontsource/instrument-serif/400.css";
-import "@fontsource/instrument-serif/400-italic.css";
-import "@fontsource-variable/geist/index.css";
+import "@fontsource/silkscreen/400.css";
+import "@fontsource/reenie-beanie/400.css";
+import "@fontsource-variable/inter-tight/wght.css";
 import { profile } from "@/data/portfolio";
 import { JSON_LD, SITE_DESCRIPTION, baseMetadata, socialCards } from "@/lib/site-metadata";
-import { THEME_SCRIPT } from "@/components/landing/theme";
+import "@/styles/notebook.css";
 import "./landing.css";
 
-// Root layout for the landing site at /. Separate from the Interactive OS's
-// root layout, so the two never share styles, scroll behaviour or theme state.
+// Root layout for the site at /: the notebook (src/styles/notebook.css),
+// which is light only, like paper. Separate from the newsletter's root
+// layout, so the two never share styles or scroll behaviour.
 
 const TITLE = `${profile.name} — ${profile.role}`;
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#f4f6fb",
+  themeColor: "#f1f2ee",
 };
 
 export const metadata: Metadata = {
@@ -28,13 +29,8 @@ export const metadata: Metadata = {
 
 export default function SiteLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    // data-theme is set before first paint by THEME_SCRIPT; suppress the
-    // hydration warning that the server-rendered attribute would differ.
-    <html lang="en" data-theme="light" suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
-      </head>
-      <body className="site">
+    <html lang="en">
+      <body className="site nb-page">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(JSON_LD) }} />
         {children}
       </body>

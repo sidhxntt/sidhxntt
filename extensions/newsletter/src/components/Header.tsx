@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ThemeToggle } from "@/components/landing/ThemeToggle";
 import { BASE } from "../lib/config";
 import { AccountButton, SubscribeLink } from "./auth";
 
@@ -8,10 +7,10 @@ export function Header({ current }: { current?: "home" | "admin" }) {
     <header className="nl-header">
       <div className="wrap nl-header__inner">
         <Link className="nl-brand" href={BASE}>
-          <span className="nl-brand__mark" aria-hidden="true">
-            SG
+          <span className="nl-brand__mark" aria-hidden="true" />
+          <span className="nl-brand__name">
+            SID&rsquo;s <span className="nl-brand__hand">newsletter</span>
           </span>
-          <span className="nl-brand__name">Siddhant Gupta</span>
           <span className="sr-only">Newsletter home</span>
         </Link>
         <nav className="nl-nav" aria-label="Newsletter">
@@ -24,7 +23,6 @@ export function Header({ current }: { current?: "home" | "admin" }) {
           <a href="/">Website</a>
         </nav>
         <div className="nl-header__end">
-          <ThemeToggle />
           <AccountButton />
           <SubscribeLink />
         </div>

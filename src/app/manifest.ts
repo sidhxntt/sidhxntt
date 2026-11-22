@@ -4,8 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: "Siddhant Gupta — Portfolio",
     short_name: "Siddhant",
-    description:
-      "Siddhant Gupta's portfolio — also explorable as a macOS-style Interactive OS and a 3D Game OS.",
+    description: "Siddhant Gupta's portfolio and newsletter.",
     start_url: "/",
     display: "standalone",
     background_color: "#03050c",
