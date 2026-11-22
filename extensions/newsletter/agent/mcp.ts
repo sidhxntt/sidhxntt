@@ -50,9 +50,12 @@ function summary(e: Entry, link: string) {
   return `${e.kind} "${e.title}" at ${e.path} (${state}), id ${e.id}\n${link}`;
 }
 
+// Settings are read on every call, so pointing .env.local at another
+// deployment (npm run newsletter:agent-key) takes effect without a restart.
 let client: AgentClient | null = null;
 function api() {
-  client ??= new AgentClient(loadConfig());
+  const config = loadConfig();
+  if (!client || JSON.stringify(client.config) !== JSON.stringify(config)) client = new AgentClient(config);
   return client;
 }
 
