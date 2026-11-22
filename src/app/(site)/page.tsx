@@ -5,6 +5,7 @@ import { ThemeToggle } from "@/components/landing/ThemeToggle";
 import { Timeline } from "@/components/landing/Timeline";
 import { MobileMenu } from "@/components/landing/MobileMenu";
 import { CaseStudy } from "@/components/landing/CaseStudy";
+import { SocialIcon } from "@/components/landing/SocialIcon";
 
 // The landing site: a normal, scrollable portfolio built from the same data
 // as the Interactive OS (src/data/portfolio.ts). OS-only content — photos,
@@ -26,6 +27,9 @@ const SECTIONS = [
   { label: "Writing", href: "#writing" },
   { label: "Contact", href: "#contact" },
 ];
+
+// The newsletter (extensions/newsletter), served by this site at /newsletter.
+const NEWSLETTER = { label: "Newsletter", href: "/newsletter" };
 
 // Where I write things down. URLs come from linkApps (the same Medium and
 // Notion icons the Interactive OS shows); the words here are landing-only.
@@ -98,9 +102,12 @@ export default function LandingPage() {
             <a className="nav__resume" href={profile.resumeUrl} target="_blank" rel="noopener">
               Resume
             </a>
+            <a className="button button--primary nav__cta" href={NEWSLETTER.href}>
+              {NEWSLETTER.label}
+            </a>
             <ThemeToggle />
             <MobileMenu
-              links={[...SECTIONS, { label: "Resume", href: profile.resumeUrl, external: true }]}
+              links={[...SECTIONS, NEWSLETTER, { label: "Resume", href: profile.resumeUrl, external: true }]}
             />
           </div>
         </div>
@@ -226,6 +233,11 @@ export default function LandingPage() {
             </h2>
             <div className="section__body">
               <p className="section__intro">What I learn building systems, written down so others can use it too.</p>
+              <p className="writing__cta">
+                <a className="button button--primary" href={NEWSLETTER.href}>
+                  Read the newsletter
+                </a>
+              </p>
               <ul className="writing">
                 {WRITING.map((w) => (
                   <li key={w.id} className="writing__item">
@@ -273,7 +285,8 @@ export default function LandingPage() {
             <ul className="contact__links" aria-label="Profiles">
               {PRIMARY_LINKS.map((l) => (
                 <li key={l.url}>
-                  <a className="text-link" href={l.url} target="_blank" rel="noopener">
+                  <a className="text-link icon-link" href={l.url} target="_blank" rel="noopener">
+                    <SocialIcon label={l.label} />
                     {l.label}
                   </a>
                 </li>
@@ -296,7 +309,8 @@ export default function LandingPage() {
         <ul className="wrap footer__links" aria-label="Also on">
           {FOOTER_LINKS.map((l) => (
             <li key={l.url}>
-              <a href={l.url} target="_blank" rel="noopener">
+              <a className="icon-link" href={l.url} target="_blank" rel="noopener">
+                <SocialIcon label={l.label} size={15} />
                 {l.label}
               </a>
             </li>
