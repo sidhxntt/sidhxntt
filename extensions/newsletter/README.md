@@ -8,7 +8,7 @@ stats for the author and email to subscribers. The backend is
 [AutoSend](https://autosend.com).
 
 It builds and deploys with the root Next.js app, which mounts it through
-one-line route files in `src/app/(newsletter)` (like the Interactive OS).
+one-line route files in `src/app/(newsletter)`.
 
 ```
 extensions/newsletter

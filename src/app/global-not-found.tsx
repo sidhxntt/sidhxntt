@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import "@fontsource/instrument-serif/400.css";
-import "@fontsource/instrument-serif/400-italic.css";
-import "@fontsource-variable/geist/index.css";
-import { THEME_SCRIPT } from "@/components/landing/theme";
+import "@fontsource/silkscreen/400.css";
+import "@fontsource/reenie-beanie/400.css";
+import "@fontsource-variable/inter-tight/wght.css";
+import { PixelWord } from "@/components/landing/Juno";
+import "@/styles/notebook.css";
 import "./(site)/landing.css";
 
-// The app has two root layouts (landing site and Interactive OS), so unmatched
-// URLs need this standalone 404 page. It uses the landing site's styles.
+// The app has two root layouts (the site and the newsletter), so
+// unmatched URLs need this standalone 404 page: the notebook, with 404 in the
+// hero's selection frame.
 
 export const metadata: Metadata = {
   title: "Page not found",
@@ -15,21 +17,25 @@ export const metadata: Metadata = {
 
 export default function GlobalNotFound() {
   return (
-    <html lang="en" data-theme="light" suppressHydrationWarning>
-      <head>
-        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
-      </head>
-      <body className="site">
-        <main className="wrap not-found">
-          <p className="not-found__code">404</p>
-          <h1 className="contact__title">This page doesn&rsquo;t exist.</h1>
-          <p className="contact__intro">The link may be old, or the address may have a typo.</p>
-          <div className="contact__actions">
-            <a className="button button--primary" href="/">
+    <html lang="en">
+      <body className="site nb-page">
+        <main className="nb-wrap not-found">
+          <h1 className="not-found__frame">
+            <span className="nb-sr">404: page not found</span>
+            <i aria-hidden />
+            <i aria-hidden />
+            <i aria-hidden />
+            <i aria-hidden />
+            <PixelWord word="404" className="nb-word" />
+          </h1>
+          <p className="not-found__say nb-hand">this page isn&rsquo;t in the notebook.</p>
+          <p className="not-found__more">The link may be old, or the address may have a typo.</p>
+          <div className="not-found__actions">
+            <a className="nb-btn" href="/">
               Go to the homepage
             </a>
-            <a className="button" href="/interactive">
-              Open the Interactive OS
+            <a className="nb-btn nb-btn--light" href="/newsletter">
+              Read the newsletter
             </a>
           </div>
         </main>

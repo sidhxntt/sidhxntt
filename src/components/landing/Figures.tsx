@@ -1,5 +1,5 @@
-// Sets the numbers in a sentence ("10M+ records", "40%", "1,200+") in the
-// monospace figure face, so the measurable parts of the work stand out.
+// Marks the numbers in a sentence ("10M+ records", "40%", "1,200+") with a
+// highlighter stroke, so the measurable parts of the work stand out.
 
 const FIGURE = /(\d[\d,.]*(?:M\+|K\+|TB\+|%|\+)?)/;
 

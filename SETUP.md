@@ -105,13 +105,6 @@ Current config, in the *What's on right now* section:
 If the card ever stops rendering, re-authorize at the service URL above; the uid
 is stable but the stored token can expire.
 
-Note on the existing keys: `input/09-spotify-keys.json` holds
-`SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` placeholders for the portfolio
-site's Music app, which uses them only as an optional search fallback (the
-*client-credentials* flow; iTunes is the primary source and needs no keys). Those are unrelated
-to this — the hosted service does its own user OAuth and needs nothing from you
-beyond the authorize click.
-
 Self-hosted alternative if you would rather not depend on someone else's
 service: fork https://github.com/kittinan/spotify-github-profile (it is a
 deployable app, **not** a GitHub Action, despite what some guides claim) or
