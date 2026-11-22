@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/"],
+      disallow: ["/api/", "/newsletter/admin", "/newsletter/profile"],
     },
     sitemap: "https://sidhxntt.dev/sitemap.xml",
   };
