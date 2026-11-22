@@ -937,6 +937,9 @@ html.menu-open {
 
 /* Writing */
 
+.writing__cta {
+  margin-top: 1.5rem;
+}
 .writing {
   margin-top: clamp(2rem, 4vw, 3rem);
   border-top: 1px solid var(--line);
@@ -1210,6 +1213,14 @@ html.menu-open {
   color: var(--muted);
   text-decoration: none;
 }
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icon-link svg {
+  flex: none;
+}
 .footer__links a:hover {
   color: var(--text);
 }
@@ -1279,4 +1290,64 @@ html.menu-open {
   font-weight: 400;
   font-size: 1.5rem;
   color: var(--blue-bright);
+}
+
+/* the newsletter's button in the top bar */
+.nav__cta {
+  padding: 0.55rem 1.05rem;
+  font-size: 0.875rem;
+}
+.nav__name {
+  white-space: nowrap;
+}
+@media (max-width: 420px) {
+  .nav__cta {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8125rem;
+  }
+}
+@media (max-width: 359px) {
+  .nav__cta {
+    display: none;
+  }
+}
+
+/* ── Feel: press and page changes ────────────────────────────────────── */
+
+:is(a, button, summary) {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+.button,
+.theme-toggle,
+.menu-button {
+  transition:
+    transform 0.14s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+.button:active,
+.theme-toggle:active,
+.menu-button:active {
+  transform: scale(0.95);
+  transition-duration: 0.06s;
+}
+
+/* moving between the site, the newsletter and back cross-fades */
+@view-transition {
+  navigation: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .theme-toggle,
+  .menu-button {
+    transition: none;
+  }
+  .button:active,
+  .theme-toggle:active,
+  .menu-button:active {
+    transform: none;
+  }
 }
