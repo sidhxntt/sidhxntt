@@ -10,6 +10,7 @@ import { ReadTracker } from "../components/ReadTracker";
 import { SubscribeForm } from "../components/SubscribeForm";
 import { BASE, href } from "../lib/config";
 import { formatDate } from "../lib/format";
+import { IMAGE } from "../lib/meta";
 import { renderPostHtml } from "../lib/render";
 import { load } from "../lib/server";
 
@@ -37,13 +38,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: entry.title,
       description: entry.excerpt ?? undefined,
       ...(entry.publishedAt ? { publishedTime: new Date(entry.publishedAt).toISOString() } : {}),
-      ...(entry.coverUrl ? { images: [{ url: entry.coverUrl }] } : {}),
+      // no cover: the newsletter's own card
+      images: [entry.coverUrl ? { url: entry.coverUrl } : { ...IMAGE, width: 1200, height: 630 }],
     },
     twitter: {
-      card: entry.coverUrl ? "summary_large_image" : "summary",
+      card: "summary_large_image",
       title: entry.title,
       description: entry.excerpt ?? undefined,
-      ...(entry.coverUrl ? { images: [entry.coverUrl] } : {}),
+      images: [entry.coverUrl ?? IMAGE.url],
     },
   };
 }

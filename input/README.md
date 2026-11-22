@@ -18,5 +18,5 @@ file names the source file it maps to.
 ## Files supplied by hand
 
 All in place: `public/resume.pdf`, the app icons (`src/app/icon.png`,
-`src/app/apple-icon.png`) and the link-preview image `public/og.jpg`.
+`src/app/apple-icon.png`) and the link-preview cards in `public/og/`.
 
