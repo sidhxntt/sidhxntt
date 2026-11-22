@@ -32,7 +32,9 @@ jobs:
 
       - name: Circular dependency check
         # madge is intentionally not a project dependency; --yes skips the npx install prompt.
-        run: npx --yes madge --circular --extensions ts,tsx --ts-config tsconfig.json src extensions/interactive/src
+        # Convex's generated api.d.ts imports every module's types and every
+        # module imports it: type-only cycles (api.js imports nothing), so skipped.
+        run: npx --yes madge --circular --extensions ts,tsx --ts-config tsconfig.json --exclude '_generated/' src extensions/interactive/src extensions/newsletter/src extensions/newsletter/convex
 
       - name: Test
         # Guarded so CI passes before the vitest config/tests land.

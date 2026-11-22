@@ -1,0 +1,5 @@
+{
+  "//": "Lets tsx run these scripts as ES modules (top-level await, import.meta).",
+  "private": true,
+  "type": "module"
+}
