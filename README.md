@@ -103,11 +103,11 @@ So, don't wait up—because I'm on my way.
 ### 📡 Recent activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/Invytt/landing_page/pull/3) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
-2. 💪 Opened PR [#3](https://github.com/Invytt/landing_page/pull/3) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
-3. 🎉 Merged PR [#2](https://github.com/Invytt/landing_page/pull/2) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
-4. 💪 Opened PR [#2](https://github.com/Invytt/landing_page/pull/2) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
-5. 🎉 Merged PR [#1](https://github.com/Invytt/landing_page/pull/1) in [Invytt/landing_page](https://github.com/Invytt/landing_page)
+1. 🎉 Merged PR [#70](https://github.com/sidhxntt/Praxis/pull/70) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+2. ❌ Closed PR [#42](https://github.com/sidhxntt/Praxis/pull/42) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+3. ❌ Closed PR [#52](https://github.com/sidhxntt/Praxis/pull/52) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+4. ❌ Closed PR [#55](https://github.com/sidhxntt/Praxis/pull/55) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
+5. ❌ Closed PR [#56](https://github.com/sidhxntt/Praxis/pull/56) in [sidhxntt/Praxis](https://github.com/sidhxntt/Praxis)
 <!--END_SECTION:activity-->
 
 </td>
